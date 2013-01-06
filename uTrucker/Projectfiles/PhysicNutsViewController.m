@@ -13,9 +13,9 @@
 
 -(void) initWithDefaults
 {
-	self.createModelBlock = ^{
-		return [KTPhysicsEntityModel model];
-	};
+//	self.createModelBlock = ^{
+//		return [KTPhysicsEntityModel physicsEntityModelWithPhysicsController:self.sceneViewController.physicsController];
+//	};
 }
 
 

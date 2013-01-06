@@ -93,6 +93,9 @@
 		{
 			rootNode.tag = i;
 		};
+        physicsVC.createModelBlock = ^{
+                return [KTPhysicsEntityModel physicsEntityModelWithPhysicsController: physicsController];
+        };
 		[coconutsVC addSubController:physicsVC];
 	}
 	
