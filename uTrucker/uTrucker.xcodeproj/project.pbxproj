@@ -7,6 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70EE99D01699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
+		70EE99D11699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
+		70EE99DE1699E5F4006C5768 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
+		70EE99DF1699E5F4006C5768 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
+		70EE99E21699E5F4006C5768 /* GameSceneBackground.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */; };
+		70EE99E31699E5F4006C5768 /* GameSceneBackground.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */; };
+		70EE99E61699E5F4006C5768 /* uTruckerMainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */; };
+		70EE99E71699E5F4006C5768 /* uTruckerMainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */; };
+		70EE99F11699E60E006C5768 /* bitmapfont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */; };
+		70EE99F21699E60E006C5768 /* bitmapfont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */; };
+		70EE99F31699E60E006C5768 /* bitmapfont-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */; };
+		70EE99F41699E60E006C5768 /* bitmapfont-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */; };
+		70EE99F51699E60E006C5768 /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EB1699E60E006C5768 /* bitmapfont.fnt */; };
+		70EE99F61699E60E006C5768 /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EB1699E60E006C5768 /* bitmapfont.fnt */; };
+		70EE99F71699E60E006C5768 /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EC1699E60E006C5768 /* bitmapfont.png */; };
+		70EE99F81699E60E006C5768 /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EC1699E60E006C5768 /* bitmapfont.png */; };
+		70EE99F91699E60E006C5768 /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */; };
+		70EE99FA1699E60E006C5768 /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */; };
+		70EE99FB1699E60E006C5768 /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EE1699E60E006C5768 /* konqa32-hd.png */; };
+		70EE99FC1699E60E006C5768 /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EE1699E60E006C5768 /* konqa32-hd.png */; };
+		70EE99FD1699E60E006C5768 /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EF1699E60E006C5768 /* konqa32.fnt */; };
+		70EE99FE1699E60E006C5768 /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EF1699E60E006C5768 /* konqa32.fnt */; };
+		70EE99FF1699E60E006C5768 /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99F01699E60E006C5768 /* konqa32.png */; };
+		70EE9A001699E60E006C5768 /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99F01699E60E006C5768 /* konqa32.png */; };
+		70EE9A2A1699E61B006C5768 /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A271699E61B006C5768 /* particlefx.plist */; };
+		70EE9A2B1699E61B006C5768 /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A271699E61B006C5768 /* particlefx.plist */; };
+		70EE9A2C1699E61B006C5768 /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A281699E61B006C5768 /* particlefx.png */; };
+		70EE9A2D1699E61B006C5768 /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A281699E61B006C5768 /* particlefx.png */; };
+		70EE9A2E1699E61B006C5768 /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A291699E61B006C5768 /* particleTexture.png */; };
+		70EE9A2F1699E61B006C5768 /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A291699E61B006C5768 /* particleTexture.png */; };
+		70EE9A421699E639006C5768 /* PQCommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A311699E639006C5768 /* PQCommonDef.m */; };
+		70EE9A431699E639006C5768 /* PQCommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A311699E639006C5768 /* PQCommonDef.m */; };
+		70EE9A441699E639006C5768 /* PQGameHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A331699E639006C5768 /* PQGameHUDViewController.m */; };
+		70EE9A451699E639006C5768 /* PQGameHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A331699E639006C5768 /* PQGameHUDViewController.m */; };
+		70EE9A461699E639006C5768 /* PQGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A351699E639006C5768 /* PQGameModel.m */; };
+		70EE9A471699E639006C5768 /* PQGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A351699E639006C5768 /* PQGameModel.m */; };
+		70EE9A481699E639006C5768 /* PQGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A371699E639006C5768 /* PQGameOverViewController.m */; };
+		70EE9A491699E639006C5768 /* PQGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A371699E639006C5768 /* PQGameOverViewController.m */; };
+		70EE9A4A1699E639006C5768 /* PQGameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A391699E639006C5768 /* PQGameSceneViewController.m */; };
+		70EE9A4B1699E639006C5768 /* PQGameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A391699E639006C5768 /* PQGameSceneViewController.m */; };
+		70EE9A4C1699E639006C5768 /* PQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3B1699E639006C5768 /* PQGameViewController.m */; };
+		70EE9A4D1699E639006C5768 /* PQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3B1699E639006C5768 /* PQGameViewController.m */; };
+		70EE9A4E1699E639006C5768 /* PQLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */; };
+		70EE9A4F1699E639006C5768 /* PQLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */; };
+		70EE9A501699E639006C5768 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
+		70EE9A511699E639006C5768 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
+		70EE9A521699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
+		70EE9A531699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
+		70EE9A5B1699E70F006C5768 /* libb2dJson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A581699E70F006C5768 /* libb2dJson-ios.a */; };
+		70EE9A5C1699E70F006C5768 /* libccbReader-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A591699E70F006C5768 /* libccbReader-ios.a */; };
+		70EE9A5D1699E70F006C5768 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5A1699E70F006C5768 /* libsmc-ios.a */; };
+		70EE9A611699E725006C5768 /* libb2dJson-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */; };
+		70EE9A621699E725006C5768 /* libccbReader-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5F1699E725006C5768 /* libccbReader-mac.a */; };
+		70EE9A631699E725006C5768 /* libsmc-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A601699E725006C5768 /* libsmc-mac.a */; };
+		70EE9AC81699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
+		70EE9AC91699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
+		70EE9ACA1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */; };
+		70EE9ACB1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */; };
+		70EE9ACC1699FE87006C5768 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */; };
+		70EE9ACD1699FE87006C5768 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */; };
+		70EE9ACE1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */; };
+		70EE9ACF1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */; };
+		70EE9AD01699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */; };
+		70EE9AD11699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */; };
+		70EE9AD21699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */; };
+		70EE9AD31699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */; };
+		70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
+		70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
+		70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
+		70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
+		70EE9AD81699FE87006C5768 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */; };
+		70EE9AD91699FE87006C5768 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */; };
+		70EE9ADA1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */; };
+		70EE9ADB1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */; };
+		70EE9ADC1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */; };
+		70EE9ADD1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */; };
+		70EE9ADE1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */; };
+		70EE9ADF1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */; };
+		70EE9AE01699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */; };
+		70EE9AE11699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */; };
+		70EE9AE21699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */; };
+		70EE9AE31699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */; };
+		70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
+		70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
+		70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */; };
+		70EE9AE71699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */; };
 		DC21B88B1511078F00FD4891 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8881511078F00FD4891 /* fps_images-hd.png */; };
 		DC21B88C1511078F00FD4891 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */; };
 		DC21B88D1511078F00FD4891 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88A1511078F00FD4891 /* fps_images.png */; };
@@ -15,18 +101,6 @@
 		DC2721A8160CAFA600D88944 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = DC2721A7160CAFA600D88944 /* iTunesArtwork */; };
 		DC272476160E48A600D88944 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC272475160E48A600D88944 /* libkoboldtouch-ios.a */; };
 		DC272479160E48AE00D88944 /* libkoboldtouch-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC272478160E48AE00D88944 /* libkoboldtouch-mac.a */; };
-		DC2AE21C163AD9F600F2B1BD /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC2AE21A163AD9F600F2B1BD /* particlefx.plist */; };
-		DC2AE21D163AD9F600F2B1BD /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC2AE21A163AD9F600F2B1BD /* particlefx.plist */; };
-		DC2AE21E163AD9F600F2B1BD /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2AE21B163AD9F600F2B1BD /* particlefx.png */; };
-		DC2AE21F163AD9F600F2B1BD /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2AE21B163AD9F600F2B1BD /* particlefx.png */; };
-		DC3A5BB31633364700D0C54F /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BAF1633364700D0C54F /* konqa32-hd.fnt */; };
-		DC3A5BB41633364700D0C54F /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BAF1633364700D0C54F /* konqa32-hd.fnt */; };
-		DC3A5BB51633364700D0C54F /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB01633364700D0C54F /* konqa32-hd.png */; };
-		DC3A5BB61633364700D0C54F /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB01633364700D0C54F /* konqa32-hd.png */; };
-		DC3A5BB71633364700D0C54F /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB11633364700D0C54F /* konqa32.fnt */; };
-		DC3A5BB81633364700D0C54F /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB11633364700D0C54F /* konqa32.fnt */; };
-		DC3A5BB91633364700D0C54F /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB21633364700D0C54F /* konqa32.png */; };
-		DC3A5BBA1633364700D0C54F /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3A5BB21633364700D0C54F /* konqa32.png */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
 		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
 		DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615013A969B600A7AC53 /* libbox2d-ios.a */; };
@@ -34,21 +108,7 @@
 		DC65616113A969B600A7AC53 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615513A969B600A7AC53 /* libcocos2d-ios.a */; };
 		DC65616313A969B600A7AC53 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */; };
 		DC65616413A969B600A7AC53 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615813A969B600A7AC53 /* libkobold2d-ios.a */; };
-		DC73CA79162B4E330041997C /* dg_grounds32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC73CA78162B4E330041997C /* dg_grounds32-hd.png */; };
-		DC73CA7A162B4E330041997C /* dg_grounds32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC73CA78162B4E330041997C /* dg_grounds32-hd.png */; };
-		DC84D388162592870029E280 /* MyFirstSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84D387162592870029E280 /* MyFirstSceneViewController.m */; };
-		DC84D38A1625928F0029E280 /* MyFirstSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84D387162592870029E280 /* MyFirstSceneViewController.m */; };
-		DC87CD20161709B600F03D9F /* PhysicNutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC87CD1F161709B600F03D9F /* PhysicNutsViewController.m */; };
-		DC87CD21161709B600F03D9F /* PhysicNutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC87CD1F161709B600F03D9F /* PhysicNutsViewController.m */; };
-		DC912CF51629998200AD381F /* dg_grounds32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF01629998200AD381F /* dg_grounds32.png */; };
-		DC912CF61629998200AD381F /* dg_grounds32.png in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF01629998200AD381F /* dg_grounds32.png */; };
-		DC912CF71629998200AD381F /* game-events.png in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF11629998200AD381F /* game-events.png */; };
-		DC912CF81629998200AD381F /* game-events.png in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF11629998200AD381F /* game-events.png */; };
-		DC912CF91629998200AD381F /* orthogonal.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF21629998200AD381F /* orthogonal.tmx */; };
-		DC912CFA1629998200AD381F /* orthogonal.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DC912CF21629998200AD381F /* orthogonal.tmx */; };
 		DC979E3E13B35F8800656CB9 /* libcocos2d-extensions-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC979E3D13B35F8800656CB9 /* libcocos2d-extensions-mac.a */; };
-		DCA37DC916135AF900F207E0 /* CoconutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA37DC816135AF900F207E0 /* CoconutsViewController.m */; };
-		DCA37DCA16135AF900F207E0 /* CoconutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA37DC816135AF900F207E0 /* CoconutsViewController.m */; };
 		DCC1A0FA13A94ED5005BD75D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
 		DCC1A0FE13A94ED5005BD75D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FD13A94ED5005BD75D /* Icon-72.png */; };
 		DCC1A10013A94ED5005BD75D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */; };
@@ -67,13 +127,66 @@
 		DCC1A3B013A94F1A005BD75D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
 		DCCF5F1C161746E20067D8C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10513A94ED5005BD75D /* Icon.png */; };
 		DCCF5F1E161747BD0067D8C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
-		DCF89D3E1625B92100E417F5 /* MySecondSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF89D3D1625B92100E417F5 /* MySecondSceneViewController.m */; };
-		DCF89D3F1625B92100E417F5 /* MySecondSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF89D3D1625B92100E417F5 /* MySecondSceneViewController.m */; };
 		DCF95CD213A97EC500AE3B80 /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF95CC913A97EC500AE3B80 /* libcocos2d-mac.a */; };
 		DCF95CD413A97EC500AE3B80 /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF95CCB13A97EC500AE3B80 /* libkobold2d-mac.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70EE99CF1699E5E2006C5768 /* trailer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailer.json; sourceTree = "<group>"; };
+		70EE99D51699E5F4006C5768 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
+		70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSceneBackground.ccbi; sourceTree = "<group>"; };
+		70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = uTruckerMainScene.ccbi; sourceTree = "<group>"; };
+		70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bitmapfont-hd.fnt"; sourceTree = "<group>"; };
+		70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bitmapfont-hd.png"; sourceTree = "<group>"; };
+		70EE99EB1699E60E006C5768 /* bitmapfont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapfont.fnt; sourceTree = "<group>"; };
+		70EE99EC1699E60E006C5768 /* bitmapfont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitmapfont.png; sourceTree = "<group>"; };
+		70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "konqa32-hd.fnt"; sourceTree = "<group>"; };
+		70EE99EE1699E60E006C5768 /* konqa32-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "konqa32-hd.png"; sourceTree = "<group>"; };
+		70EE99EF1699E60E006C5768 /* konqa32.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = konqa32.fnt; sourceTree = "<group>"; };
+		70EE99F01699E60E006C5768 /* konqa32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konqa32.png; sourceTree = "<group>"; };
+		70EE9A271699E61B006C5768 /* particlefx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = particlefx.plist; sourceTree = "<group>"; };
+		70EE9A281699E61B006C5768 /* particlefx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particlefx.png; sourceTree = "<group>"; };
+		70EE9A291699E61B006C5768 /* particleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleTexture.png; sourceTree = "<group>"; };
+		70EE9A301699E639006C5768 /* PQCommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQCommonDef.h; sourceTree = "<group>"; };
+		70EE9A311699E639006C5768 /* PQCommonDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQCommonDef.m; sourceTree = "<group>"; };
+		70EE9A321699E639006C5768 /* PQGameHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGameHUDViewController.h; sourceTree = "<group>"; };
+		70EE9A331699E639006C5768 /* PQGameHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGameHUDViewController.m; sourceTree = "<group>"; };
+		70EE9A341699E639006C5768 /* PQGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGameModel.h; sourceTree = "<group>"; };
+		70EE9A351699E639006C5768 /* PQGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGameModel.m; sourceTree = "<group>"; };
+		70EE9A361699E639006C5768 /* PQGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGameOverViewController.h; sourceTree = "<group>"; };
+		70EE9A371699E639006C5768 /* PQGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGameOverViewController.m; sourceTree = "<group>"; };
+		70EE9A381699E639006C5768 /* PQGameSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGameSceneViewController.h; sourceTree = "<group>"; };
+		70EE9A391699E639006C5768 /* PQGameSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGameSceneViewController.m; sourceTree = "<group>"; };
+		70EE9A3A1699E639006C5768 /* PQGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGameViewController.h; sourceTree = "<group>"; };
+		70EE9A3B1699E639006C5768 /* PQGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGameViewController.m; sourceTree = "<group>"; };
+		70EE9A3C1699E639006C5768 /* PQLevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQLevelSelectViewController.h; sourceTree = "<group>"; };
+		70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQLevelSelectViewController.m; sourceTree = "<group>"; };
+		70EE9A3E1699E639006C5768 /* PQMainSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQMainSceneViewController.h; sourceTree = "<group>"; };
+		70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMainSceneViewController.m; sourceTree = "<group>"; };
+		70EE9A401699E639006C5768 /* PQSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSceneSelectViewController.h; sourceTree = "<group>"; };
+		70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQSceneSelectViewController.m; sourceTree = "<group>"; };
+		70EE9A581699E70F006C5768 /* libb2dJson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-ios.a"; path = "../../PQKit/build/Release-iphoneos/libb2dJson-ios.a"; sourceTree = "<group>"; };
+		70EE9A591699E70F006C5768 /* libccbReader-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-ios.a"; path = "../../PQKit/build/Release-iphoneos/libccbReader-ios.a"; sourceTree = "<group>"; };
+		70EE9A5A1699E70F006C5768 /* libsmc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-ios.a"; path = "../../PQKit/build/Release-iphoneos/libsmc-ios.a"; sourceTree = "<group>"; };
+		70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-mac.a"; path = "../../PQKit/build/Release/libb2dJson-mac.a"; sourceTree = "<group>"; };
+		70EE9A5F1699E725006C5768 /* libccbReader-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-mac.a"; path = "../../PQKit/build/Release/libccbReader-mac.a"; sourceTree = "<group>"; };
+		70EE9A601699E725006C5768 /* libsmc-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-mac.a"; path = "../../PQKit/build/Release/libsmc-mac.a"; sourceTree = "<group>"; };
+		70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-hd.plist"; sourceTree = "<group>"; };
+		70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-hd.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
+		70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipadhd.plist"; sourceTree = "<group>"; };
+		70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9ABE1699FE87006C5768 /* GameSprite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameSprite.plist; sourceTree = "<group>"; };
+		70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSprite.pvr.ccz; sourceTree = "<group>"; };
+		70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-hd.plist"; sourceTree = "<group>"; };
+		70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-hd.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipad.plist"; sourceTree = "<group>"; };
+		70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipadhd.plist"; sourceTree = "<group>"; };
+		70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		70EE9AC61699FE87006C5768 /* MainSceneImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainSceneImage.plist; sourceTree = "<group>"; };
+		70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainSceneImage.pvr.ccz; sourceTree = "<group>"; };
 		DC21B8881511078F00FD4891 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
 		DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
 		DC21B88A1511078F00FD4891 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
@@ -82,12 +195,6 @@
 		DC2721A7160CAFA600D88944 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		DC272475160E48A600D88944 /* libkoboldtouch-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkoboldtouch-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC272478160E48AE00D88944 /* libkoboldtouch-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkoboldtouch-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC2AE21A163AD9F600F2B1BD /* particlefx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = particlefx.plist; sourceTree = "<group>"; };
-		DC2AE21B163AD9F600F2B1BD /* particlefx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particlefx.png; sourceTree = "<group>"; };
-		DC3A5BAF1633364700D0C54F /* konqa32-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "konqa32-hd.fnt"; sourceTree = "<group>"; };
-		DC3A5BB01633364700D0C54F /* konqa32-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "konqa32-hd.png"; sourceTree = "<group>"; };
-		DC3A5BB11633364700D0C54F /* konqa32.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = konqa32.fnt; sourceTree = "<group>"; };
-		DC3A5BB21633364700D0C54F /* konqa32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konqa32.png; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocosdenshion-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,21 +203,10 @@
 		DC65615513A969B600A7AC53 /* libcocos2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocosdenshion-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC65615813A969B600A7AC53 /* libkobold2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkobold2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC73CA78162B4E330041997C /* dg_grounds32-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dg_grounds32-hd.png"; sourceTree = "<group>"; };
-		DC84D386162592870029E280 /* MyFirstSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFirstSceneViewController.h; sourceTree = "<group>"; };
-		DC84D387162592870029E280 /* MyFirstSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstSceneViewController.m; sourceTree = "<group>"; };
-		DC87CD1E161709B600F03D9F /* PhysicNutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicNutsViewController.h; sourceTree = "<group>"; };
-		DC87CD1F161709B600F03D9F /* PhysicNutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicNutsViewController.m; sourceTree = "<group>"; };
-		DC912CEF1629998200AD381F /* Author&License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Author&License.txt"; sourceTree = "<group>"; };
-		DC912CF01629998200AD381F /* dg_grounds32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dg_grounds32.png; sourceTree = "<group>"; };
-		DC912CF11629998200AD381F /* game-events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-events.png"; sourceTree = "<group>"; };
-		DC912CF21629998200AD381F /* orthogonal.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orthogonal.tmx; sourceTree = "<group>"; };
 		DC979E3D13B35F8800656CB9 /* libcocos2d-extensions-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-extensions-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E813B5024400931BF2 /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
-		DCA37DC716135AF900F207E0 /* CoconutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoconutsViewController.h; sourceTree = "<group>"; };
-		DCA37DC816135AF900F207E0 /* CoconutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoconutsViewController.m; sourceTree = "<group>"; };
 		DCC1A0E313A94ED5005BD75D /* uTrucker-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uTrucker-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC1A0F913A94ED5005BD75D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DCC1A0FD13A94ED5005BD75D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -131,8 +227,6 @@
 		DCC1A39213A94F1A005BD75D /* Prefix-iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-iOS.pch"; sourceTree = "<group>"; };
 		DCC1A39313A94F1A005BD75D /* Prefix-Mac.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-Mac.pch"; sourceTree = "<group>"; };
 		DCC1A39513A94F1A005BD75D /* config.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode.applescript; fileEncoding = 4; path = config.lua; sourceTree = "<group>"; };
-		DCF89D3C1625B92100E417F5 /* MySecondSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySecondSceneViewController.h; sourceTree = "<group>"; };
-		DCF89D3D1625B92100E417F5 /* MySecondSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySecondSceneViewController.m; sourceTree = "<group>"; };
 		DCF95CC913A97EC500AE3B80 /* libcocos2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF95CCB13A97EC500AE3B80 /* libkobold2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkobold2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +238,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EE9A5B1699E70F006C5768 /* libb2dJson-ios.a in Frameworks */,
+				70EE9A5C1699E70F006C5768 /* libccbReader-ios.a in Frameworks */,
+				70EE9A5D1699E70F006C5768 /* libsmc-ios.a in Frameworks */,
 				DC272476160E48A600D88944 /* libkoboldtouch-ios.a in Frameworks */,
 				DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */,
 				DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */,
@@ -157,6 +254,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EE9A611699E725006C5768 /* libb2dJson-mac.a in Frameworks */,
+				70EE9A621699E725006C5768 /* libccbReader-mac.a in Frameworks */,
+				70EE9A631699E725006C5768 /* libsmc-mac.a in Frameworks */,
 				DC272479160E48AE00D88944 /* libkoboldtouch-mac.a in Frameworks */,
 				DC979E3E13B35F8800656CB9 /* libcocos2d-extensions-mac.a in Frameworks */,
 				DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */,
@@ -169,21 +269,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC912CEE1629998200AD381F /* David Gervais Tilesets */ = {
+		70EE99CE1699E5E2006C5768 /* b2dJson */ = {
 			isa = PBXGroup;
 			children = (
-				DC912CEF1629998200AD381F /* Author&License.txt */,
-				DC73CA78162B4E330041997C /* dg_grounds32-hd.png */,
-				DC912CF01629998200AD381F /* dg_grounds32.png */,
-				DC912CF11629998200AD381F /* game-events.png */,
-				DC912CF21629998200AD381F /* orthogonal.tmx */,
+				70EE99CF1699E5E2006C5768 /* trailer.json */,
 			);
-			path = "David Gervais Tilesets";
+			path = b2dJson;
+			sourceTree = "<group>";
+		};
+		70EE99D21699E5F4006C5768 /* ccbi */ = {
+			isa = PBXGroup;
+			children = (
+				70EE99D51699E5F4006C5768 /* GameScene.ccbi */,
+				70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */,
+				70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */,
+			);
+			path = ccbi;
+			sourceTree = "<group>";
+		};
+		70EE99E81699E60E006C5768 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */,
+				70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */,
+				70EE99EB1699E60E006C5768 /* bitmapfont.fnt */,
+				70EE99EC1699E60E006C5768 /* bitmapfont.png */,
+				70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */,
+				70EE99EE1699E60E006C5768 /* konqa32-hd.png */,
+				70EE99EF1699E60E006C5768 /* konqa32.fnt */,
+				70EE99F01699E60E006C5768 /* konqa32.png */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		70EE9A261699E61B006C5768 /* particlefx */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A271699E61B006C5768 /* particlefx.plist */,
+				70EE9A281699E61B006C5768 /* particlefx.png */,
+				70EE9A291699E61B006C5768 /* particleTexture.png */,
+			);
+			path = particlefx;
+			sourceTree = "<group>";
+		};
+		70EE9A541699E645006C5768 /* Com */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A301699E639006C5768 /* PQCommonDef.h */,
+				70EE9A311699E639006C5768 /* PQCommonDef.m */,
+			);
+			name = Com;
+			sourceTree = "<group>";
+		};
+		70EE9A551699E652006C5768 /* Scenes Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A3E1699E639006C5768 /* PQMainSceneViewController.h */,
+				70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */,
+				70EE9A401699E639006C5768 /* PQSceneSelectViewController.h */,
+				70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */,
+				70EE9A3C1699E639006C5768 /* PQLevelSelectViewController.h */,
+				70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */,
+				70EE9A381699E639006C5768 /* PQGameSceneViewController.h */,
+				70EE9A391699E639006C5768 /* PQGameSceneViewController.m */,
+				70EE9A361699E639006C5768 /* PQGameOverViewController.h */,
+				70EE9A371699E639006C5768 /* PQGameOverViewController.m */,
+			);
+			name = "Scenes Controller";
+			sourceTree = "<group>";
+		};
+		70EE9A561699E696006C5768 /* Views Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A321699E639006C5768 /* PQGameHUDViewController.h */,
+				70EE9A331699E639006C5768 /* PQGameHUDViewController.m */,
+				70EE9A3A1699E639006C5768 /* PQGameViewController.h */,
+				70EE9A3B1699E639006C5768 /* PQGameViewController.m */,
+			);
+			name = "Views Controller";
+			sourceTree = "<group>";
+		};
+		70EE9A571699E6CD006C5768 /* Scene Model */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A341699E639006C5768 /* PQGameModel.h */,
+				70EE9A351699E639006C5768 /* PQGameModel.m */,
+			);
+			name = "Scene Model";
+			sourceTree = "<group>";
+		};
+		70EE9A641699E72D006C5768 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */,
+				70EE9A5F1699E725006C5768 /* libccbReader-mac.a */,
+				70EE9A601699E725006C5768 /* libsmc-mac.a */,
+				70EE9A581699E70F006C5768 /* libb2dJson-ios.a */,
+				70EE9A591699E70F006C5768 /* libccbReader-ios.a */,
+				70EE9A5A1699E70F006C5768 /* libsmc-ios.a */,
+			);
+			name = libs;
+			path = Projectfiles;
+			sourceTree = "<group>";
+		};
+		70EE9AB71699FE87006C5768 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */,
+				70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */,
+				70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */,
+				70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */,
+				70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */,
+				70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */,
+				70EE9ABE1699FE87006C5768 /* GameSprite.plist */,
+				70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */,
+				70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */,
+				70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */,
+				70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */,
+				70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */,
+				70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */,
+				70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */,
+				70EE9AC61699FE87006C5768 /* MainSceneImage.plist */,
+				70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				70EE9A641699E72D006C5768 /* libs */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -270,14 +485,10 @@
 			children = (
 				DCC1A38D13A94F1A005BD75D /* AppDelegate.h */,
 				DCC1A38E13A94F1A005BD75D /* AppDelegate.m */,
-				DCA37DC716135AF900F207E0 /* CoconutsViewController.h */,
-				DCA37DC816135AF900F207E0 /* CoconutsViewController.m */,
-				DC87CD1E161709B600F03D9F /* PhysicNutsViewController.h */,
-				DC87CD1F161709B600F03D9F /* PhysicNutsViewController.m */,
-				DC84D386162592870029E280 /* MyFirstSceneViewController.h */,
-				DC84D387162592870029E280 /* MyFirstSceneViewController.m */,
-				DCF89D3C1625B92100E417F5 /* MySecondSceneViewController.h */,
-				DCF89D3D1625B92100E417F5 /* MySecondSceneViewController.m */,
+				70EE9A541699E645006C5768 /* Com */,
+				70EE9A551699E652006C5768 /* Scenes Controller */,
+				70EE9A571699E6CD006C5768 /* Scene Model */,
+				70EE9A561699E696006C5768 /* Views Controller */,
 				DCC1A39413A94F1A005BD75D /* Resources */,
 				DCC1A3CF13A94F2C005BD75D /* Supporting Files */,
 			);
@@ -287,13 +498,11 @@
 		DCC1A39413A94F1A005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DC2AE21A163AD9F600F2B1BD /* particlefx.plist */,
-				DC2AE21B163AD9F600F2B1BD /* particlefx.png */,
-				DC3A5BAF1633364700D0C54F /* konqa32-hd.fnt */,
-				DC3A5BB01633364700D0C54F /* konqa32-hd.png */,
-				DC3A5BB11633364700D0C54F /* konqa32.fnt */,
-				DC3A5BB21633364700D0C54F /* konqa32.png */,
-				DC912CEE1629998200AD381F /* David Gervais Tilesets */,
+				70EE9AB71699FE87006C5768 /* images */,
+				70EE9A261699E61B006C5768 /* particlefx */,
+				70EE99E81699E60E006C5768 /* font */,
+				70EE99D21699E5F4006C5768 /* ccbi */,
+				70EE99CE1699E5E2006C5768 /* b2dJson */,
 				DCC1A39513A94F1A005BD75D /* config.lua */,
 			);
 			path = Resources;
@@ -404,16 +613,37 @@
 				DC21B88D1511078F00FD4891 /* fps_images.png in Resources */,
 				DC27219F160CADFF00D88944 /* Default-568h@2x.png in Resources */,
 				DC2721A8160CAFA600D88944 /* iTunesArtwork in Resources */,
-				DC912CF51629998200AD381F /* dg_grounds32.png in Resources */,
-				DC912CF71629998200AD381F /* game-events.png in Resources */,
-				DC912CF91629998200AD381F /* orthogonal.tmx in Resources */,
-				DC73CA79162B4E330041997C /* dg_grounds32-hd.png in Resources */,
-				DC3A5BB31633364700D0C54F /* konqa32-hd.fnt in Resources */,
-				DC3A5BB51633364700D0C54F /* konqa32-hd.png in Resources */,
-				DC3A5BB71633364700D0C54F /* konqa32.fnt in Resources */,
-				DC3A5BB91633364700D0C54F /* konqa32.png in Resources */,
-				DC2AE21C163AD9F600F2B1BD /* particlefx.plist in Resources */,
-				DC2AE21E163AD9F600F2B1BD /* particlefx.png in Resources */,
+				70EE99D01699E5E2006C5768 /* trailer.json in Resources */,
+				70EE99DE1699E5F4006C5768 /* GameScene.ccbi in Resources */,
+				70EE99E21699E5F4006C5768 /* GameSceneBackground.ccbi in Resources */,
+				70EE99E61699E5F4006C5768 /* uTruckerMainScene.ccbi in Resources */,
+				70EE99F11699E60E006C5768 /* bitmapfont-hd.fnt in Resources */,
+				70EE99F31699E60E006C5768 /* bitmapfont-hd.png in Resources */,
+				70EE99F51699E60E006C5768 /* bitmapfont.fnt in Resources */,
+				70EE99F71699E60E006C5768 /* bitmapfont.png in Resources */,
+				70EE99F91699E60E006C5768 /* konqa32-hd.fnt in Resources */,
+				70EE99FB1699E60E006C5768 /* konqa32-hd.png in Resources */,
+				70EE99FD1699E60E006C5768 /* konqa32.fnt in Resources */,
+				70EE99FF1699E60E006C5768 /* konqa32.png in Resources */,
+				70EE9A2A1699E61B006C5768 /* particlefx.plist in Resources */,
+				70EE9A2C1699E61B006C5768 /* particlefx.png in Resources */,
+				70EE9A2E1699E61B006C5768 /* particleTexture.png in Resources */,
+				70EE9AC81699FE87006C5768 /* GameSprite-hd.plist in Resources */,
+				70EE9ACA1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */,
+				70EE9ACC1699FE87006C5768 /* GameSprite-ipad.plist in Resources */,
+				70EE9ACE1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70EE9AD01699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */,
+				70EE9AD21699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */,
+				70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */,
+				70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
+				70EE9AD81699FE87006C5768 /* MainSceneImage-hd.plist in Resources */,
+				70EE9ADA1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */,
+				70EE9ADC1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */,
+				70EE9ADE1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70EE9AE01699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */,
+				70EE9AE21699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
+				70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */,
+				70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,16 +658,37 @@
 				DC21B88F1511079900FD4891 /* fps_images.png in Resources */,
 				DCCF5F1C161746E20067D8C3 /* Icon.png in Resources */,
 				DCCF5F1E161747BD0067D8C3 /* Default.png in Resources */,
-				DC912CF61629998200AD381F /* dg_grounds32.png in Resources */,
-				DC912CF81629998200AD381F /* game-events.png in Resources */,
-				DC912CFA1629998200AD381F /* orthogonal.tmx in Resources */,
-				DC73CA7A162B4E330041997C /* dg_grounds32-hd.png in Resources */,
-				DC3A5BB41633364700D0C54F /* konqa32-hd.fnt in Resources */,
-				DC3A5BB61633364700D0C54F /* konqa32-hd.png in Resources */,
-				DC3A5BB81633364700D0C54F /* konqa32.fnt in Resources */,
-				DC3A5BBA1633364700D0C54F /* konqa32.png in Resources */,
-				DC2AE21D163AD9F600F2B1BD /* particlefx.plist in Resources */,
-				DC2AE21F163AD9F600F2B1BD /* particlefx.png in Resources */,
+				70EE99D11699E5E2006C5768 /* trailer.json in Resources */,
+				70EE99DF1699E5F4006C5768 /* GameScene.ccbi in Resources */,
+				70EE99E31699E5F4006C5768 /* GameSceneBackground.ccbi in Resources */,
+				70EE99E71699E5F4006C5768 /* uTruckerMainScene.ccbi in Resources */,
+				70EE99F21699E60E006C5768 /* bitmapfont-hd.fnt in Resources */,
+				70EE99F41699E60E006C5768 /* bitmapfont-hd.png in Resources */,
+				70EE99F61699E60E006C5768 /* bitmapfont.fnt in Resources */,
+				70EE99F81699E60E006C5768 /* bitmapfont.png in Resources */,
+				70EE99FA1699E60E006C5768 /* konqa32-hd.fnt in Resources */,
+				70EE99FC1699E60E006C5768 /* konqa32-hd.png in Resources */,
+				70EE99FE1699E60E006C5768 /* konqa32.fnt in Resources */,
+				70EE9A001699E60E006C5768 /* konqa32.png in Resources */,
+				70EE9A2B1699E61B006C5768 /* particlefx.plist in Resources */,
+				70EE9A2D1699E61B006C5768 /* particlefx.png in Resources */,
+				70EE9A2F1699E61B006C5768 /* particleTexture.png in Resources */,
+				70EE9AC91699FE87006C5768 /* GameSprite-hd.plist in Resources */,
+				70EE9ACB1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */,
+				70EE9ACD1699FE87006C5768 /* GameSprite-ipad.plist in Resources */,
+				70EE9ACF1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70EE9AD11699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */,
+				70EE9AD31699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */,
+				70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */,
+				70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
+				70EE9AD91699FE87006C5768 /* MainSceneImage-hd.plist in Resources */,
+				70EE9ADB1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */,
+				70EE9ADD1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */,
+				70EE9ADF1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70EE9AE11699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */,
+				70EE9AE31699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
+				70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */,
+				70EE9AE71699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,10 +701,15 @@
 			files = (
 				DCC1A3A913A94F1A005BD75D /* AppDelegate.m in Sources */,
 				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
-				DCA37DC916135AF900F207E0 /* CoconutsViewController.m in Sources */,
-				DC87CD20161709B600F03D9F /* PhysicNutsViewController.m in Sources */,
-				DC84D388162592870029E280 /* MyFirstSceneViewController.m in Sources */,
-				DCF89D3E1625B92100E417F5 /* MySecondSceneViewController.m in Sources */,
+				70EE9A421699E639006C5768 /* PQCommonDef.m in Sources */,
+				70EE9A441699E639006C5768 /* PQGameHUDViewController.m in Sources */,
+				70EE9A461699E639006C5768 /* PQGameModel.m in Sources */,
+				70EE9A481699E639006C5768 /* PQGameOverViewController.m in Sources */,
+				70EE9A4A1699E639006C5768 /* PQGameSceneViewController.m in Sources */,
+				70EE9A4C1699E639006C5768 /* PQGameViewController.m in Sources */,
+				70EE9A4E1699E639006C5768 /* PQLevelSelectViewController.m in Sources */,
+				70EE9A501699E639006C5768 /* PQMainSceneViewController.m in Sources */,
+				70EE9A521699E639006C5768 /* PQSceneSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,10 +719,15 @@
 			files = (
 				DCC1A3AA13A94F1A005BD75D /* AppDelegate.m in Sources */,
 				DCC1A3AE13A94F1A005BD75D /* main.m in Sources */,
-				DCA37DCA16135AF900F207E0 /* CoconutsViewController.m in Sources */,
-				DC87CD21161709B600F03D9F /* PhysicNutsViewController.m in Sources */,
-				DC84D38A1625928F0029E280 /* MyFirstSceneViewController.m in Sources */,
-				DCF89D3F1625B92100E417F5 /* MySecondSceneViewController.m in Sources */,
+				70EE9A431699E639006C5768 /* PQCommonDef.m in Sources */,
+				70EE9A451699E639006C5768 /* PQGameHUDViewController.m in Sources */,
+				70EE9A471699E639006C5768 /* PQGameModel.m in Sources */,
+				70EE9A491699E639006C5768 /* PQGameOverViewController.m in Sources */,
+				70EE9A4B1699E639006C5768 /* PQGameSceneViewController.m in Sources */,
+				70EE9A4D1699E639006C5768 /* PQGameViewController.m in Sources */,
+				70EE9A4F1699E639006C5768 /* PQLevelSelectViewController.m in Sources */,
+				70EE9A511699E639006C5768 /* PQMainSceneViewController.m in Sources */,
+				70EE9A531699E639006C5768 /* PQSceneSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +769,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(KKFRAMEWORKS_IOS)",
+					"-ObjC",
+				);
 			};
 			name = Debug;
 		};
@@ -515,6 +781,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(KKFRAMEWORKS_IOS)",
+					"-ObjC",
+				);
 			};
 			name = Release;
 		};

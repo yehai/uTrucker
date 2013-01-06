@@ -6,21 +6,33 @@
  */
 
 #import "AppDelegate.h"
-#import "CoconutsViewController.h"
-#import "PhysicNutsViewController.h"
-#import "MyFirstSceneViewController.h"
-
+#import "PQMainSceneViewController.h"
 @implementation AppDelegate
 
 -(void) initializationComplete
 {
-	MyFirstSceneViewController* myFirstSceneViewController = [MyFirstSceneViewController controller];
-	[self.gameController presentSceneViewController:myFirstSceneViewController];
-	
+	// allow scenes to continuously update during a transition
+	self.gameController.pauseScenesDuringTransition = NO;
+    //
+    PQMainSceneViewController* vc = [PQMainSceneViewController controller];
+	[self.gameController presentSceneViewController:vc];
+
+	NSLog(@"----- Dumping Object Graph -------");
 	NSLog(@"%@", [self.gameController.debugController objectGraph]);
-	NSLog(@"-------");
+
 }
 
+#ifdef KK_PLATFORM_IOS
+-(BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
+{
+    BOOL bResult = [super application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    // qiup added at 2012-12-30
+    [[CCFileUtils sharedFileUtils] setEnableFallbackSuffixes:YES];
+    [CCTexture2D PVRImagesHavePremultipliedAlpha:NO];
+    return bResult;
+}
+#endif
 -(id) alternateView
 {
 	return nil;

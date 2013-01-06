@@ -7,6 +7,9 @@
 
 #include "../__KoboldTouch__/buildsettings/FrameworksAndLibraries.xcconfig"
 
+// qiup added at 2013-1-7
+#include "../PQKit/buildsettings/HeaderSearchPaths.xcconfig"
+
 // ***************************************
 // Actual compiler settings filled in here
 // ***************************************

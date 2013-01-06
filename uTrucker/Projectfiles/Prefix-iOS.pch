@@ -35,6 +35,9 @@
 // Wax (and Lua) headers
 #import "luawax.h"
 
+// qiup added at 2012-12-27
+#import "PQCommonDef.h"
+
 #endif // __OBJC__
 
 

@@ -49,9 +49,9 @@ local config =
 		AdProviders = "iAd",
 
 		-- Mac OS specific settings
-		AutoScale = NO,
-		AcceptsMouseMovedEvents = NO,
-		EnableFullScreen = NO,
+		AutoScale = YES,
+		AcceptsMouseMovedEvents = YES,
+		EnableFullScreen = YES,
 	},
 }
 
