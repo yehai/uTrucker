@@ -25,7 +25,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in test");
+//    STFail(@"Unit tests are not implemented yet in test");
 }
 
 @end
