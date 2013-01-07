@@ -7,17 +7,27 @@
 		<key>test-mac.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>23</integer>
 		</dict>
 		<key>test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>4</integer>
+		</dict>
+		<key>uTrucker-Mac-HD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>uTrucker-Mac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>uTrucker-iOS-HD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>uTrucker-iOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -33,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>70C814FF169AEAA900BD83D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70E63984169B7031004A69F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70E639CF169B7098004A69F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

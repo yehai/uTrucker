@@ -52,18 +52,130 @@
 		70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD218169ABA20008BE4D9 /* Foundation.framework */; };
 		70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */; };
 		70BCD222169ABA20008BE4D9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BCD221169ABA20008BE4D9 /* test.m */; };
-		70E63947169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
-		70E63948169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
-		70E63949169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
-		70E6394A169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
-		70E6394B169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
-		70E6394C169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
-		70E6394D169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
-		70E6394E169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
-		70E6394F169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
-		70E63950169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
-		70E63951169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
-		70E63952169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
+		70E63968169B7013004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63956169B7013004A69F8 /* GameSprite-ipad.plist */; };
+		70E63969169B7013004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63956169B7013004A69F8 /* GameSprite-ipad.plist */; };
+		70E6396A169B7013004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63957169B7013004A69F8 /* GameSprite-ipad.pvr.ccz */; };
+		70E6396B169B7013004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63957169B7013004A69F8 /* GameSprite-ipad.pvr.ccz */; };
+		70E63970169B7013004A69F8 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395A169B7013004A69F8 /* GameSprite.plist */; };
+		70E63971169B7013004A69F8 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395A169B7013004A69F8 /* GameSprite.plist */; };
+		70E63972169B7013004A69F8 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395B169B7013004A69F8 /* GameSprite.pvr.ccz */; };
+		70E63973169B7013004A69F8 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395B169B7013004A69F8 /* GameSprite.pvr.ccz */; };
+		70E63978169B7013004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395E169B7013004A69F8 /* MainSceneImage-ipad.plist */; };
+		70E63979169B7013004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395E169B7013004A69F8 /* MainSceneImage-ipad.plist */; };
+		70E6397A169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395F169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
+		70E6397B169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395F169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
+		70E63980169B7013004A69F8 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63962169B7013004A69F8 /* MainSceneImage.plist */; };
+		70E63981169B7013004A69F8 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63962169B7013004A69F8 /* MainSceneImage.plist */; };
+		70E63982169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63963169B7013004A69F8 /* MainSceneImage.pvr.ccz */; };
+		70E63983169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63963169B7013004A69F8 /* MainSceneImage.pvr.ccz */; };
+		70E63986169B7031004A69F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
+		70E63987169B7031004A69F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A39113A94F1A005BD75D /* main.m */; };
+		70E63988169B7031004A69F8 /* PQCommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A311699E639006C5768 /* PQCommonDef.m */; };
+		70E63989169B7031004A69F8 /* PQGameHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A331699E639006C5768 /* PQGameHUDViewController.m */; };
+		70E6398A169B7031004A69F8 /* PQGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A351699E639006C5768 /* PQGameModel.m */; };
+		70E6398B169B7031004A69F8 /* PQGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A371699E639006C5768 /* PQGameOverViewController.m */; };
+		70E6398C169B7031004A69F8 /* PQGameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A391699E639006C5768 /* PQGameSceneViewController.m */; };
+		70E6398D169B7031004A69F8 /* PQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3B1699E639006C5768 /* PQGameViewController.m */; };
+		70E6398E169B7031004A69F8 /* PQLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */; };
+		70E6398F169B7031004A69F8 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
+		70E63990169B7031004A69F8 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
+		70E63992169B7031004A69F8 /* libb2dJson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */; };
+		70E63993169B7031004A69F8 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */; };
+		70E63994169B7031004A69F8 /* libccbReader-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */; };
+		70E63995169B7031004A69F8 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6189169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a */; };
+		70E63996169B7031004A69F8 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618A169B2BB000BD0BC6 /* libcocos2d-ios.a */; };
+		70E63997169B7031004A69F8 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618B169B2BB000BD0BC6 /* libcocosdenshion-ios.a */; };
+		70E63998169B7031004A69F8 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */; };
+		70E63999169B7031004A69F8 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */; };
+		70E6399A169B7031004A69F8 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618E169B2BB000BD0BC6 /* libsmc-ios.a */; };
+		70E6399B169B7031004A69F8 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
+		70E6399D169B7031004A69F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
+		70E6399E169B7031004A69F8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FD13A94ED5005BD75D /* Icon-72.png */; };
+		70E6399F169B7031004A69F8 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */; };
+		70E639A0169B7031004A69F8 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10113A94ED5005BD75D /* Icon-Small.png */; };
+		70E639A1169B7031004A69F8 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10313A94ED5005BD75D /* Icon-Small@2x.png */; };
+		70E639A2169B7031004A69F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10513A94ED5005BD75D /* Icon.png */; };
+		70E639A3169B7031004A69F8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10713A94ED5005BD75D /* Icon@2x.png */; };
+		70E639A4169B7031004A69F8 /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
+		70E639A5169B7031004A69F8 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8881511078F00FD4891 /* fps_images-hd.png */; };
+		70E639A6169B7031004A69F8 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */; };
+		70E639A7169B7031004A69F8 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88A1511078F00FD4891 /* fps_images.png */; };
+		70E639A8169B7031004A69F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC27219E160CADFF00D88944 /* Default-568h@2x.png */; };
+		70E639A9169B7031004A69F8 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = DC2721A7160CAFA600D88944 /* iTunesArtwork */; };
+		70E639AA169B7031004A69F8 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
+		70E639AB169B7031004A69F8 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
+		70E639AC169B7031004A69F8 /* GameSceneBackground.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */; };
+		70E639AD169B7031004A69F8 /* uTruckerMainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */; };
+		70E639AE169B7031004A69F8 /* bitmapfont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */; };
+		70E639AF169B7031004A69F8 /* bitmapfont-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */; };
+		70E639B0169B7031004A69F8 /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EB1699E60E006C5768 /* bitmapfont.fnt */; };
+		70E639B1169B7031004A69F8 /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EC1699E60E006C5768 /* bitmapfont.png */; };
+		70E639B2169B7031004A69F8 /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */; };
+		70E639B3169B7031004A69F8 /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EE1699E60E006C5768 /* konqa32-hd.png */; };
+		70E639B4169B7031004A69F8 /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EF1699E60E006C5768 /* konqa32.fnt */; };
+		70E639B5169B7031004A69F8 /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99F01699E60E006C5768 /* konqa32.png */; };
+		70E639B6169B7031004A69F8 /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A271699E61B006C5768 /* particlefx.plist */; };
+		70E639B7169B7031004A69F8 /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A281699E61B006C5768 /* particlefx.png */; };
+		70E639B8169B7031004A69F8 /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A291699E61B006C5768 /* particleTexture.png */; };
+		70E639B9169B7031004A69F8 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63954169B7013004A69F8 /* GameSprite-hd.plist */; };
+		70E639BA169B7031004A69F8 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63955169B7013004A69F8 /* GameSprite-hd.pvr.ccz */; };
+		70E639BD169B7031004A69F8 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63958169B7013004A69F8 /* GameSprite-ipadhd.plist */; };
+		70E639BE169B7031004A69F8 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63959169B7013004A69F8 /* GameSprite-ipadhd.pvr.ccz */; };
+		70E639C1169B7031004A69F8 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395C169B7013004A69F8 /* MainSceneImage-hd.plist */; };
+		70E639C2169B7031004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395D169B7013004A69F8 /* MainSceneImage-hd.pvr.ccz */; };
+		70E639C5169B7031004A69F8 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63960169B7013004A69F8 /* MainSceneImage-ipadhd.plist */; };
+		70E639C6169B7031004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63961169B7013004A69F8 /* MainSceneImage-ipadhd.pvr.ccz */; };
+		70E639D1169B7098004A69F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
+		70E639D2169B7098004A69F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A39113A94F1A005BD75D /* main.m */; };
+		70E639D3169B7098004A69F8 /* PQCommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A311699E639006C5768 /* PQCommonDef.m */; };
+		70E639D4169B7098004A69F8 /* PQGameHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A331699E639006C5768 /* PQGameHUDViewController.m */; };
+		70E639D5169B7098004A69F8 /* PQGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A351699E639006C5768 /* PQGameModel.m */; };
+		70E639D6169B7098004A69F8 /* PQGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A371699E639006C5768 /* PQGameOverViewController.m */; };
+		70E639D7169B7098004A69F8 /* PQGameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A391699E639006C5768 /* PQGameSceneViewController.m */; };
+		70E639D8169B7098004A69F8 /* PQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3B1699E639006C5768 /* PQGameViewController.m */; };
+		70E639D9169B7098004A69F8 /* PQLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */; };
+		70E639DA169B7098004A69F8 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
+		70E639DB169B7098004A69F8 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
+		70E639DD169B7098004A69F8 /* libb2dJson-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A1169B2BBE00BD0BC6 /* libb2dJson-mac.a */; };
+		70E639DE169B7098004A69F8 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A2169B2BBE00BD0BC6 /* libbox2d-mac.a */; };
+		70E639DF169B7098004A69F8 /* libccbReader-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A3169B2BBE00BD0BC6 /* libccbReader-mac.a */; };
+		70E639E0169B7098004A69F8 /* libcocos2d-extensions-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A4169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a */; };
+		70E639E1169B7098004A69F8 /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A5169B2BBE00BD0BC6 /* libcocos2d-mac.a */; };
+		70E639E2169B7098004A69F8 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A6169B2BBE00BD0BC6 /* libcocosdenshion-mac.a */; };
+		70E639E3169B7098004A69F8 /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A7169B2BBE00BD0BC6 /* libkobold2d-mac.a */; };
+		70E639E4169B7098004A69F8 /* libkoboldtouch-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A8169B2BBE00BD0BC6 /* libkoboldtouch-mac.a */; };
+		70E639E5169B7098004A69F8 /* libsmc-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A9169B2BBE00BD0BC6 /* libsmc-mac.a */; };
+		70E639E6169B7098004A69F8 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
+		70E639E8169B7098004A69F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A26713A94EE6005BD75D /* InfoPlist.strings */; };
+		70E639E9169B7098004A69F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A26A13A94EE6005BD75D /* MainMenu.xib */; };
+		70E639EA169B7098004A69F8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A26F13A94EE6005BD75D /* icon.icns */; };
+		70E639EB169B7098004A69F8 /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
+		70E639EC169B7098004A69F8 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88E1511079900FD4891 /* fps_images.png */; };
+		70E639ED169B7098004A69F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10513A94ED5005BD75D /* Icon.png */; };
+		70E639EE169B7098004A69F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
+		70E639EF169B7098004A69F8 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
+		70E639F0169B7098004A69F8 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
+		70E639F1169B7098004A69F8 /* GameSceneBackground.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */; };
+		70E639F2169B7098004A69F8 /* uTruckerMainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D91699E5F4006C5768 /* uTruckerMainScene.ccbi */; };
+		70E639F3169B7098004A69F8 /* bitmapfont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99E91699E60E006C5768 /* bitmapfont-hd.fnt */; };
+		70E639F4169B7098004A69F8 /* bitmapfont-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EA1699E60E006C5768 /* bitmapfont-hd.png */; };
+		70E639F5169B7098004A69F8 /* bitmapfont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EB1699E60E006C5768 /* bitmapfont.fnt */; };
+		70E639F6169B7098004A69F8 /* bitmapfont.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EC1699E60E006C5768 /* bitmapfont.png */; };
+		70E639F7169B7098004A69F8 /* konqa32-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99ED1699E60E006C5768 /* konqa32-hd.fnt */; };
+		70E639F8169B7098004A69F8 /* konqa32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EE1699E60E006C5768 /* konqa32-hd.png */; };
+		70E639F9169B7098004A69F8 /* konqa32.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99EF1699E60E006C5768 /* konqa32.fnt */; };
+		70E639FA169B7098004A69F8 /* konqa32.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99F01699E60E006C5768 /* konqa32.png */; };
+		70E639FB169B7098004A69F8 /* particlefx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A271699E61B006C5768 /* particlefx.plist */; };
+		70E639FC169B7098004A69F8 /* particlefx.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A281699E61B006C5768 /* particlefx.png */; };
+		70E639FD169B7098004A69F8 /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9A291699E61B006C5768 /* particleTexture.png */; };
+		70E63A0C169B70AC004A69F8 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63954169B7013004A69F8 /* GameSprite-hd.plist */; };
+		70E63A0D169B70AC004A69F8 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63955169B7013004A69F8 /* GameSprite-hd.pvr.ccz */; };
+		70E63A0E169B70AC004A69F8 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63958169B7013004A69F8 /* GameSprite-ipadhd.plist */; };
+		70E63A0F169B70AC004A69F8 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63959169B7013004A69F8 /* GameSprite-ipadhd.pvr.ccz */; };
+		70E63A10169B70AC004A69F8 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395C169B7013004A69F8 /* MainSceneImage-hd.plist */; };
+		70E63A11169B70AC004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E6395D169B7013004A69F8 /* MainSceneImage-hd.pvr.ccz */; };
+		70E63A12169B70AC004A69F8 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63960169B7013004A69F8 /* MainSceneImage-ipadhd.plist */; };
+		70E63A13169B70AC004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63961169B7013004A69F8 /* MainSceneImage-ipadhd.pvr.ccz */; };
 		70EE99D01699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99D11699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99DE1699E5F4006C5768 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
@@ -112,14 +224,6 @@
 		70EE9A511699E639006C5768 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
 		70EE9A521699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
 		70EE9A531699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
-		70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
-		70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
-		70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
-		70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
-		70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
-		70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
-		70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */; };
-		70EE9AE71699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */; };
 		DC21B88B1511078F00FD4891 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8881511078F00FD4891 /* fps_images-hd.png */; };
 		DC21B88C1511078F00FD4891 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */; };
 		DC21B88D1511078F00FD4891 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88A1511078F00FD4891 /* fps_images.png */; };
@@ -190,10 +294,24 @@
 		70C81505169AEAA900BD83D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		70C81506169AEAA900BD83D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70C81507169AEAA900BD83D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		70E63943169B6103004A69F8 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
-		70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipad.pvr.ccz"; sourceTree = "<group>"; };
-		70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipad.plist"; sourceTree = "<group>"; };
-		70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70E63954169B7013004A69F8 /* GameSprite-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-hd.plist"; sourceTree = "<group>"; };
+		70E63955169B7013004A69F8 /* GameSprite-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-hd.pvr.ccz"; sourceTree = "<group>"; };
+		70E63956169B7013004A69F8 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
+		70E63957169B7013004A69F8 /* GameSprite-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70E63958169B7013004A69F8 /* GameSprite-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipadhd.plist"; sourceTree = "<group>"; };
+		70E63959169B7013004A69F8 /* GameSprite-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		70E6395A169B7013004A69F8 /* GameSprite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameSprite.plist; sourceTree = "<group>"; };
+		70E6395B169B7013004A69F8 /* GameSprite.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSprite.pvr.ccz; sourceTree = "<group>"; };
+		70E6395C169B7013004A69F8 /* MainSceneImage-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-hd.plist"; sourceTree = "<group>"; };
+		70E6395D169B7013004A69F8 /* MainSceneImage-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-hd.pvr.ccz"; sourceTree = "<group>"; };
+		70E6395E169B7013004A69F8 /* MainSceneImage-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipad.plist"; sourceTree = "<group>"; };
+		70E6395F169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70E63960169B7013004A69F8 /* MainSceneImage-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipadhd.plist"; sourceTree = "<group>"; };
+		70E63961169B7013004A69F8 /* MainSceneImage-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		70E63962169B7013004A69F8 /* MainSceneImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainSceneImage.plist; sourceTree = "<group>"; };
+		70E63963169B7013004A69F8 /* MainSceneImage.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainSceneImage.pvr.ccz; sourceTree = "<group>"; };
+		70E639CC169B7031004A69F8 /* uTrucker-iOS-HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uTrucker-iOS-HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E63A09169B7098004A69F8 /* uTrucker-Mac-HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uTrucker-Mac-HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EE99CF1699E5E2006C5768 /* trailer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailer.json; sourceTree = "<group>"; };
 		70EE99D51699E5F4006C5768 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
 		70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSceneBackground.ccbi; sourceTree = "<group>"; };
@@ -227,10 +345,6 @@
 		70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMainSceneViewController.m; sourceTree = "<group>"; };
 		70EE9A401699E639006C5768 /* PQSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSceneSelectViewController.h; sourceTree = "<group>"; };
 		70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQSceneSelectViewController.m; sourceTree = "<group>"; };
-		70EE9ABE1699FE87006C5768 /* GameSprite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameSprite.plist; sourceTree = "<group>"; };
-		70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSprite.pvr.ccz; sourceTree = "<group>"; };
-		70EE9AC61699FE87006C5768 /* MainSceneImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainSceneImage.plist; sourceTree = "<group>"; };
-		70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainSceneImage.pvr.ccz; sourceTree = "<group>"; };
 		DC21B8881511078F00FD4891 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
 		DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
 		DC21B88A1511078F00FD4891 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
@@ -283,6 +397,40 @@
 				704F61BB169B2BE800BD0BC6 /* libkoboldtouch-ios.a in Frameworks */,
 				704F61BC169B2BE800BD0BC6 /* libsmc-ios.a in Frameworks */,
 				704F61E5169B510700BD0BC6 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E63991169B7031004A69F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E63992169B7031004A69F8 /* libb2dJson-ios.a in Frameworks */,
+				70E63993169B7031004A69F8 /* libbox2d-ios.a in Frameworks */,
+				70E63994169B7031004A69F8 /* libccbReader-ios.a in Frameworks */,
+				70E63995169B7031004A69F8 /* libcocos2d-extensions-ios.a in Frameworks */,
+				70E63996169B7031004A69F8 /* libcocos2d-ios.a in Frameworks */,
+				70E63997169B7031004A69F8 /* libcocosdenshion-ios.a in Frameworks */,
+				70E63998169B7031004A69F8 /* libkobold2d-ios.a in Frameworks */,
+				70E63999169B7031004A69F8 /* libkoboldtouch-ios.a in Frameworks */,
+				70E6399A169B7031004A69F8 /* libsmc-ios.a in Frameworks */,
+				70E6399B169B7031004A69F8 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E639DC169B7098004A69F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E639DD169B7098004A69F8 /* libb2dJson-mac.a in Frameworks */,
+				70E639DE169B7098004A69F8 /* libbox2d-mac.a in Frameworks */,
+				70E639DF169B7098004A69F8 /* libccbReader-mac.a in Frameworks */,
+				70E639E0169B7098004A69F8 /* libcocos2d-extensions-mac.a in Frameworks */,
+				70E639E1169B7098004A69F8 /* libcocos2d-mac.a in Frameworks */,
+				70E639E2169B7098004A69F8 /* libcocosdenshion-mac.a in Frameworks */,
+				70E639E3169B7098004A69F8 /* libkobold2d-mac.a in Frameworks */,
+				70E639E4169B7098004A69F8 /* libkoboldtouch-mac.a in Frameworks */,
+				70E639E5169B7098004A69F8 /* libsmc-mac.a in Frameworks */,
+				70E639E6169B7098004A69F8 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +537,29 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
+		70E63953169B7013004A69F8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				70E63954169B7013004A69F8 /* GameSprite-hd.plist */,
+				70E63955169B7013004A69F8 /* GameSprite-hd.pvr.ccz */,
+				70E63956169B7013004A69F8 /* GameSprite-ipad.plist */,
+				70E63957169B7013004A69F8 /* GameSprite-ipad.pvr.ccz */,
+				70E63958169B7013004A69F8 /* GameSprite-ipadhd.plist */,
+				70E63959169B7013004A69F8 /* GameSprite-ipadhd.pvr.ccz */,
+				70E6395A169B7013004A69F8 /* GameSprite.plist */,
+				70E6395B169B7013004A69F8 /* GameSprite.pvr.ccz */,
+				70E6395C169B7013004A69F8 /* MainSceneImage-hd.plist */,
+				70E6395D169B7013004A69F8 /* MainSceneImage-hd.pvr.ccz */,
+				70E6395E169B7013004A69F8 /* MainSceneImage-ipad.plist */,
+				70E6395F169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz */,
+				70E63960169B7013004A69F8 /* MainSceneImage-ipadhd.plist */,
+				70E63961169B7013004A69F8 /* MainSceneImage-ipadhd.pvr.ccz */,
+				70E63962169B7013004A69F8 /* MainSceneImage.plist */,
+				70E63963169B7013004A69F8 /* MainSceneImage.pvr.ccz */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		70EE99CE1699E5E2006C5768 /* b2dJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -478,21 +649,6 @@
 			name = "Scene Model";
 			sourceTree = "<group>";
 		};
-		70EE9AB71699FE87006C5768 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				70EE9ABE1699FE87006C5768 /* GameSprite.plist */,
-				70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */,
-				70E63943169B6103004A69F8 /* GameSprite-ipad.plist */,
-				70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */,
-				70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */,
-				70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */,
-				70EE9AC61699FE87006C5768 /* MainSceneImage.plist */,
-				70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +670,8 @@
 				DCC1A0E313A94ED5005BD75D /* uTrucker-iOS.app */,
 				DCC1A25A13A94EE6005BD75D /* uTrucker-Mac.app */,
 				70BCD213169ABA20008BE4D9 /* test.octest */,
+				70E639CC169B7031004A69F8 /* uTrucker-iOS-HD.app */,
+				70E63A09169B7098004A69F8 /* uTrucker-Mac-HD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -604,7 +762,7 @@
 		DCC1A39413A94F1A005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				70EE9AB71699FE87006C5768 /* images */,
+				70E63953169B7013004A69F8 /* images */,
 				70EE9A261699E61B006C5768 /* particlefx */,
 				70EE99E81699E60E006C5768 /* font */,
 				70EE99D21699E5F4006C5768 /* ccbi */,
@@ -658,6 +816,40 @@
 			productName = test;
 			productReference = 70BCD213169ABA20008BE4D9 /* test.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		70E63984169B7031004A69F8 /* uTrucker-iOS-HD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E639C9169B7031004A69F8 /* Build configuration list for PBXNativeTarget "uTrucker-iOS-HD" */;
+			buildPhases = (
+				70E63985169B7031004A69F8 /* Sources */,
+				70E63991169B7031004A69F8 /* Frameworks */,
+				70E6399C169B7031004A69F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uTrucker-iOS-HD";
+			productName = "Hello-World-iOS";
+			productReference = 70E639CC169B7031004A69F8 /* uTrucker-iOS-HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70E639CF169B7098004A69F8 /* uTrucker-Mac-HD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E63A06169B7098004A69F8 /* Build configuration list for PBXNativeTarget "uTrucker-Mac-HD" */;
+			buildPhases = (
+				70E639D0169B7098004A69F8 /* Sources */,
+				70E639DC169B7098004A69F8 /* Frameworks */,
+				70E639E7169B7098004A69F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uTrucker-Mac-HD";
+			productName = "Hello-World-Mac";
+			productReference = 70E63A09169B7098004A69F8 /* uTrucker-Mac-HD.app */;
+			productType = "com.apple.product-type.application";
 		};
 		DCC1A0E213A94ED5005BD75D /* uTrucker-iOS */ = {
 			isa = PBXNativeTarget;
@@ -714,7 +906,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				70E63984169B7031004A69F8 /* uTrucker-iOS-HD */,
 				DCC1A0E213A94ED5005BD75D /* uTrucker-iOS */,
+				70E639CF169B7098004A69F8 /* uTrucker-Mac-HD */,
 				DCC1A25913A94EE6005BD75D /* uTrucker-Mac */,
 				70BCD212169ABA20008BE4D9 /* test */,
 			);
@@ -727,10 +921,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */,
-				70E63949169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
-				70E6394C169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
-				70E6394F169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
-				70E63952169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E6399C169B7031004A69F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E6399D169B7031004A69F8 /* Default.png in Resources */,
+				70E6399E169B7031004A69F8 /* Icon-72.png in Resources */,
+				70E6399F169B7031004A69F8 /* Icon-Small-50.png in Resources */,
+				70E639A0169B7031004A69F8 /* Icon-Small.png in Resources */,
+				70E639A1169B7031004A69F8 /* Icon-Small@2x.png in Resources */,
+				70E639A2169B7031004A69F8 /* Icon.png in Resources */,
+				70E639A3169B7031004A69F8 /* Icon@2x.png in Resources */,
+				70E639A4169B7031004A69F8 /* config.lua in Resources */,
+				70E639A5169B7031004A69F8 /* fps_images-hd.png in Resources */,
+				70E639A6169B7031004A69F8 /* fps_images-ipadhd.png in Resources */,
+				70E639A7169B7031004A69F8 /* fps_images.png in Resources */,
+				70E639A8169B7031004A69F8 /* Default-568h@2x.png in Resources */,
+				70E639A9169B7031004A69F8 /* iTunesArtwork in Resources */,
+				70E639AA169B7031004A69F8 /* trailer.json in Resources */,
+				70E639AB169B7031004A69F8 /* GameScene.ccbi in Resources */,
+				70E639AC169B7031004A69F8 /* GameSceneBackground.ccbi in Resources */,
+				70E639AD169B7031004A69F8 /* uTruckerMainScene.ccbi in Resources */,
+				70E639AE169B7031004A69F8 /* bitmapfont-hd.fnt in Resources */,
+				70E639AF169B7031004A69F8 /* bitmapfont-hd.png in Resources */,
+				70E639B0169B7031004A69F8 /* bitmapfont.fnt in Resources */,
+				70E639B1169B7031004A69F8 /* bitmapfont.png in Resources */,
+				70E639B2169B7031004A69F8 /* konqa32-hd.fnt in Resources */,
+				70E639B3169B7031004A69F8 /* konqa32-hd.png in Resources */,
+				70E639B4169B7031004A69F8 /* konqa32.fnt in Resources */,
+				70E639B5169B7031004A69F8 /* konqa32.png in Resources */,
+				70E639B6169B7031004A69F8 /* particlefx.plist in Resources */,
+				70E639B7169B7031004A69F8 /* particlefx.png in Resources */,
+				70E639B8169B7031004A69F8 /* particleTexture.png in Resources */,
+				70E639B9169B7031004A69F8 /* GameSprite-hd.plist in Resources */,
+				70E639BA169B7031004A69F8 /* GameSprite-hd.pvr.ccz in Resources */,
+				70E639BD169B7031004A69F8 /* GameSprite-ipadhd.plist in Resources */,
+				70E639BE169B7031004A69F8 /* GameSprite-ipadhd.pvr.ccz in Resources */,
+				70E639C1169B7031004A69F8 /* MainSceneImage-hd.plist in Resources */,
+				70E639C2169B7031004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */,
+				70E639C5169B7031004A69F8 /* MainSceneImage-ipadhd.plist in Resources */,
+				70E639C6169B7031004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E639E7169B7098004A69F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E639E8169B7098004A69F8 /* InfoPlist.strings in Resources */,
+				70E639E9169B7098004A69F8 /* MainMenu.xib in Resources */,
+				70E639EA169B7098004A69F8 /* icon.icns in Resources */,
+				70E639EB169B7098004A69F8 /* config.lua in Resources */,
+				70E639EC169B7098004A69F8 /* fps_images.png in Resources */,
+				70E639ED169B7098004A69F8 /* Icon.png in Resources */,
+				70E639EE169B7098004A69F8 /* Default.png in Resources */,
+				70E639EF169B7098004A69F8 /* trailer.json in Resources */,
+				70E639F0169B7098004A69F8 /* GameScene.ccbi in Resources */,
+				70E639F1169B7098004A69F8 /* GameSceneBackground.ccbi in Resources */,
+				70E639F2169B7098004A69F8 /* uTruckerMainScene.ccbi in Resources */,
+				70E639F3169B7098004A69F8 /* bitmapfont-hd.fnt in Resources */,
+				70E639F4169B7098004A69F8 /* bitmapfont-hd.png in Resources */,
+				70E639F5169B7098004A69F8 /* bitmapfont.fnt in Resources */,
+				70E639F6169B7098004A69F8 /* bitmapfont.png in Resources */,
+				70E639F7169B7098004A69F8 /* konqa32-hd.fnt in Resources */,
+				70E639F8169B7098004A69F8 /* konqa32-hd.png in Resources */,
+				70E639F9169B7098004A69F8 /* konqa32.fnt in Resources */,
+				70E639FA169B7098004A69F8 /* konqa32.png in Resources */,
+				70E639FB169B7098004A69F8 /* particlefx.plist in Resources */,
+				70E639FC169B7098004A69F8 /* particlefx.png in Resources */,
+				70E639FD169B7098004A69F8 /* particleTexture.png in Resources */,
+				70E63A0C169B70AC004A69F8 /* GameSprite-hd.plist in Resources */,
+				70E63A0D169B70AC004A69F8 /* GameSprite-hd.pvr.ccz in Resources */,
+				70E63A0E169B70AC004A69F8 /* GameSprite-ipadhd.plist in Resources */,
+				70E63A0F169B70AC004A69F8 /* GameSprite-ipadhd.pvr.ccz in Resources */,
+				70E63A10169B70AC004A69F8 /* MainSceneImage-hd.plist in Resources */,
+				70E63A11169B70AC004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */,
+				70E63A12169B70AC004A69F8 /* MainSceneImage-ipadhd.plist in Resources */,
+				70E63A13169B70AC004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,14 +1036,14 @@
 				70EE9A2A1699E61B006C5768 /* particlefx.plist in Resources */,
 				70EE9A2C1699E61B006C5768 /* particlefx.png in Resources */,
 				70EE9A2E1699E61B006C5768 /* particleTexture.png in Resources */,
-				70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */,
-				70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
-				70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */,
-				70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
-				70E63947169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
-				70E6394A169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
-				70E6394D169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
-				70E63950169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70E63968169B7013004A69F8 /* GameSprite-ipad.plist in Resources */,
+				70E6396A169B7013004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70E63970169B7013004A69F8 /* GameSprite.plist in Resources */,
+				70E63972169B7013004A69F8 /* GameSprite.pvr.ccz in Resources */,
+				70E63978169B7013004A69F8 /* MainSceneImage-ipad.plist in Resources */,
+				70E6397A169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70E63980169B7013004A69F8 /* MainSceneImage.plist in Resources */,
+				70E63982169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,14 +1073,14 @@
 				70EE9A2B1699E61B006C5768 /* particlefx.plist in Resources */,
 				70EE9A2D1699E61B006C5768 /* particlefx.png in Resources */,
 				70EE9A2F1699E61B006C5768 /* particleTexture.png in Resources */,
-				70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */,
-				70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
-				70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */,
-				70EE9AE71699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
-				70E63948169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
-				70E6394B169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
-				70E6394E169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
-				70E63951169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70E63969169B7013004A69F8 /* GameSprite-ipad.plist in Resources */,
+				70E6396B169B7013004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70E63971169B7013004A69F8 /* GameSprite.plist in Resources */,
+				70E63973169B7013004A69F8 /* GameSprite.pvr.ccz in Resources */,
+				70E63979169B7013004A69F8 /* MainSceneImage-ipad.plist in Resources */,
+				70E6397B169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
+				70E63981169B7013004A69F8 /* MainSceneImage.plist in Resources */,
+				70E63983169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,6 +1118,42 @@
 				704F6155169B2AB100BD0BC6 /* PQGameHUDViewController.m in Sources */,
 				704F6156169B2AB100BD0BC6 /* PQGameViewController.m in Sources */,
 				70BCD222169ABA20008BE4D9 /* test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E63985169B7031004A69F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E63986169B7031004A69F8 /* AppDelegate.m in Sources */,
+				70E63987169B7031004A69F8 /* main.m in Sources */,
+				70E63988169B7031004A69F8 /* PQCommonDef.m in Sources */,
+				70E63989169B7031004A69F8 /* PQGameHUDViewController.m in Sources */,
+				70E6398A169B7031004A69F8 /* PQGameModel.m in Sources */,
+				70E6398B169B7031004A69F8 /* PQGameOverViewController.m in Sources */,
+				70E6398C169B7031004A69F8 /* PQGameSceneViewController.m in Sources */,
+				70E6398D169B7031004A69F8 /* PQGameViewController.m in Sources */,
+				70E6398E169B7031004A69F8 /* PQLevelSelectViewController.m in Sources */,
+				70E6398F169B7031004A69F8 /* PQMainSceneViewController.m in Sources */,
+				70E63990169B7031004A69F8 /* PQSceneSelectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E639D0169B7098004A69F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E639D1169B7098004A69F8 /* AppDelegate.m in Sources */,
+				70E639D2169B7098004A69F8 /* main.m in Sources */,
+				70E639D3169B7098004A69F8 /* PQCommonDef.m in Sources */,
+				70E639D4169B7098004A69F8 /* PQGameHUDViewController.m in Sources */,
+				70E639D5169B7098004A69F8 /* PQGameModel.m in Sources */,
+				70E639D6169B7098004A69F8 /* PQGameOverViewController.m in Sources */,
+				70E639D7169B7098004A69F8 /* PQGameSceneViewController.m in Sources */,
+				70E639D8169B7098004A69F8 /* PQGameViewController.m in Sources */,
+				70E639D9169B7098004A69F8 /* PQLevelSelectViewController.m in Sources */,
+				70E639DA169B7098004A69F8 /* PQMainSceneViewController.m in Sources */,
+				70E639DB169B7098004A69F8 /* PQSceneSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1003,6 +1309,76 @@
 			};
 			name = Release;
 		};
+		70E639CA169B7031004A69F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Projectfiles-iOS/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(KKFRAMEWORKS_IOS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "uTrucker-iOS-HD";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Debug;
+		};
+		70E639CB169B7031004A69F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Projectfiles-iOS/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(KKFRAMEWORKS_IOS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "uTrucker-iOS-HD";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Release;
+		};
+		70E63A07169B7098004A69F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Projectfiles-Mac/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test\"",
+				);
+				PRODUCT_NAME = "uTrucker-Mac-HD";
+			};
+			name = Debug;
+		};
+		70E63A08169B7098004A69F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Projectfiles-Mac/Resources/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test\"",
+				);
+				PRODUCT_NAME = "uTrucker-Mac-HD";
+			};
+			name = Release;
+		};
 		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1083,6 +1459,24 @@
 			buildConfigurations = (
 				70BCD224169ABA20008BE4D9 /* Debug */,
 				70BCD225169ABA20008BE4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E639C9169B7031004A69F8 /* Build configuration list for PBXNativeTarget "uTrucker-iOS-HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E639CA169B7031004A69F8 /* Debug */,
+				70E639CB169B7031004A69F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E63A06169B7098004A69F8 /* Build configuration list for PBXNativeTarget "uTrucker-Mac-HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E63A07169B7098004A69F8 /* Debug */,
+				70E63A08169B7098004A69F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
