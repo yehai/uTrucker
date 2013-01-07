@@ -3,4 +3,4 @@
 	url = https://yehai@github.com/yehai/PQKit.git
 [submodule "__KoboldTouch__"]
 	path = __KoboldTouch__
-url=./__KoboldTouch__
+	url = https://yehai@github.com/yehai/3rd.git
