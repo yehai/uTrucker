@@ -146,6 +146,10 @@
 		70BCD220169ABA20008BE4D9 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		70BCD221169ABA20008BE4D9 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		70BCD223169ABA20008BE4D9 /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
+		70C81502169AEAA900BD83D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		70C81505169AEAA900BD83D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		70C81506169AEAA900BD83D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70C81507169AEAA900BD83D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70EE99CF1699E5E2006C5768 /* trailer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailer.json; sourceTree = "<group>"; };
 		70EE99D51699E5F4006C5768 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
 		70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSceneBackground.ccbi; sourceTree = "<group>"; };
@@ -313,6 +317,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		70C81504169AEAA900BD83D9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C81505169AEAA900BD83D9 /* AppKit.framework */,
+				70C81506169AEAA900BD83D9 /* CoreData.framework */,
+				70C81507169AEAA900BD83D9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 		70EE99CE1699E5E2006C5768 /* b2dJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +483,8 @@
 				70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */,
 				70BCD216169ABA20008BE4D9 /* UIKit.framework */,
 				70BCD218169ABA20008BE4D9 /* Foundation.framework */,
+				70C81502169AEAA900BD83D9 /* Cocoa.framework */,
+				70C81504169AEAA900BD83D9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -893,6 +909,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -921,6 +938,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
