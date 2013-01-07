@@ -5,9 +5,9 @@
       location = "group:uTrucker/uTrucker.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:__KoboldTouch__/KoboldTouch-Libraries.xcodeproj">
+      location = "group:PQKit/PQKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PQKit/PQKit.xcodeproj">
+      location = "group:__KoboldTouch__/KoboldTouch-Libraries.xcodeproj">
    </FileRef>
 </Workspace>

@@ -986,6 +986,7 @@
 				70BCD225169ABA20008BE4D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "uTrucker" */ = {
 			isa = XCConfigurationList;
