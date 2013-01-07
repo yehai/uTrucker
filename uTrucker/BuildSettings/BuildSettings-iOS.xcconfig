@@ -13,7 +13,7 @@
 // Actual compiler settings filled in here
 // ***************************************
 
-OTHER_LDFLAGS = $(inherited) $(KKFRAMEWORKS_IOS)
+OTHER_LDFLAGS = $(inherited) $(KKFRAMEWORKS_IOS) 
 
 INFOPLIST_FILE = Projectfiles-iOS/Resources/Info.plist
 GCC_PREFIX_HEADER = Projectfiles/Prefix-iOS.pch

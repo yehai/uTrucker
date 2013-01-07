@@ -7,7 +7,6 @@
 //
 
 #import "test.h"
-
 @implementation test
 
 - (void)setUp
@@ -26,7 +25,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in test");
+//    STFail(@"Unit tests are not implemented yet in test");
 }
 
 @end

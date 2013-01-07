@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		704F614D169B2AB100BD0BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1A38E13A94F1A005BD75D /* AppDelegate.m */; };
+		704F614E169B2AB100BD0BC6 /* PQCommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A311699E639006C5768 /* PQCommonDef.m */; };
+		704F614F169B2AB100BD0BC6 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
+		704F6150169B2AB100BD0BC6 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
+		704F6151169B2AB100BD0BC6 /* PQLevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3D1699E639006C5768 /* PQLevelSelectViewController.m */; };
+		704F6152169B2AB100BD0BC6 /* PQGameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A391699E639006C5768 /* PQGameSceneViewController.m */; };
+		704F6153169B2AB100BD0BC6 /* PQGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A371699E639006C5768 /* PQGameOverViewController.m */; };
+		704F6154169B2AB100BD0BC6 /* PQGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A351699E639006C5768 /* PQGameModel.m */; };
+		704F6155169B2AB100BD0BC6 /* PQGameHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A331699E639006C5768 /* PQGameHUDViewController.m */; };
+		704F6156169B2AB100BD0BC6 /* PQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3B1699E639006C5768 /* PQGameViewController.m */; };
+		704F618F169B2BB000BD0BC6 /* libb2dJson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */; };
+		704F6190169B2BB000BD0BC6 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */; };
+		704F6191169B2BB000BD0BC6 /* libccbReader-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */; };
+		704F6192169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6189169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a */; };
+		704F6193169B2BB000BD0BC6 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618A169B2BB000BD0BC6 /* libcocos2d-ios.a */; };
+		704F6194169B2BB000BD0BC6 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618B169B2BB000BD0BC6 /* libcocosdenshion-ios.a */; };
+		704F6195169B2BB000BD0BC6 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */; };
+		704F6196169B2BB000BD0BC6 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */; };
+		704F6197169B2BB000BD0BC6 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618E169B2BB000BD0BC6 /* libsmc-ios.a */; };
+		704F61AA169B2BBE00BD0BC6 /* libb2dJson-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A1169B2BBE00BD0BC6 /* libb2dJson-mac.a */; };
+		704F61AB169B2BBE00BD0BC6 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A2169B2BBE00BD0BC6 /* libbox2d-mac.a */; };
+		704F61AC169B2BBE00BD0BC6 /* libccbReader-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A3169B2BBE00BD0BC6 /* libccbReader-mac.a */; };
+		704F61AD169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A4169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a */; };
+		704F61AE169B2BBE00BD0BC6 /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A5169B2BBE00BD0BC6 /* libcocos2d-mac.a */; };
+		704F61AF169B2BBE00BD0BC6 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A6169B2BBE00BD0BC6 /* libcocosdenshion-mac.a */; };
+		704F61B0169B2BBE00BD0BC6 /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A7169B2BBE00BD0BC6 /* libkobold2d-mac.a */; };
+		704F61B1169B2BBE00BD0BC6 /* libkoboldtouch-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A8169B2BBE00BD0BC6 /* libkoboldtouch-mac.a */; };
+		704F61B2169B2BBE00BD0BC6 /* libsmc-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61A9169B2BBE00BD0BC6 /* libsmc-mac.a */; };
+		704F61B4169B2BE800BD0BC6 /* libb2dJson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */; };
+		704F61B5169B2BE800BD0BC6 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */; };
+		704F61B6169B2BE800BD0BC6 /* libccbReader-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */; };
+		704F61B7169B2BE800BD0BC6 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F6189169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a */; };
+		704F61B8169B2BE800BD0BC6 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618A169B2BB000BD0BC6 /* libcocos2d-ios.a */; };
+		704F61B9169B2BE800BD0BC6 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618B169B2BB000BD0BC6 /* libcocosdenshion-ios.a */; };
+		704F61BA169B2BE800BD0BC6 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */; };
+		704F61BB169B2BE800BD0BC6 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */; };
+		704F61BC169B2BE800BD0BC6 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618E169B2BB000BD0BC6 /* libsmc-ios.a */; };
 		70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */; };
 		70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD216169ABA20008BE4D9 /* UIKit.framework */; };
 		70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD218169ABA20008BE4D9 /* Foundation.framework */; };
@@ -60,12 +97,6 @@
 		70EE9A511699E639006C5768 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
 		70EE9A521699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
 		70EE9A531699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
-		70EE9A5B1699E70F006C5768 /* libb2dJson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A581699E70F006C5768 /* libb2dJson-ios.a */; };
-		70EE9A5C1699E70F006C5768 /* libccbReader-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A591699E70F006C5768 /* libccbReader-ios.a */; };
-		70EE9A5D1699E70F006C5768 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5A1699E70F006C5768 /* libsmc-ios.a */; };
-		70EE9A611699E725006C5768 /* libb2dJson-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */; };
-		70EE9A621699E725006C5768 /* libccbReader-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A5F1699E725006C5768 /* libccbReader-mac.a */; };
-		70EE9A631699E725006C5768 /* libsmc-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EE9A601699E725006C5768 /* libsmc-mac.a */; };
 		70EE9AC81699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
 		70EE9AC91699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
 		70EE9ACA1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */; };
@@ -104,16 +135,6 @@
 		DC21B88F1511079900FD4891 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88E1511079900FD4891 /* fps_images.png */; };
 		DC27219F160CADFF00D88944 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC27219E160CADFF00D88944 /* Default-568h@2x.png */; };
 		DC2721A8160CAFA600D88944 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = DC2721A7160CAFA600D88944 /* iTunesArtwork */; };
-		DC272476160E48A600D88944 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC272475160E48A600D88944 /* libkoboldtouch-ios.a */; };
-		DC272479160E48AE00D88944 /* libkoboldtouch-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC272478160E48AE00D88944 /* libkoboldtouch-mac.a */; };
-		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
-		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
-		DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615013A969B600A7AC53 /* libbox2d-ios.a */; };
-		DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615413A969B600A7AC53 /* libcocos2d-extensions-ios.a */; };
-		DC65616113A969B600A7AC53 /* libcocos2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615513A969B600A7AC53 /* libcocos2d-ios.a */; };
-		DC65616313A969B600A7AC53 /* libcocosdenshion-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */; };
-		DC65616413A969B600A7AC53 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65615813A969B600A7AC53 /* libkobold2d-ios.a */; };
-		DC979E3E13B35F8800656CB9 /* libcocos2d-extensions-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC979E3D13B35F8800656CB9 /* libcocos2d-extensions-mac.a */; };
 		DCC1A0FA13A94ED5005BD75D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
 		DCC1A0FE13A94ED5005BD75D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FD13A94ED5005BD75D /* Icon-72.png */; };
 		DCC1A10013A94ED5005BD75D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */; };
@@ -132,11 +153,37 @@
 		DCC1A3B013A94F1A005BD75D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A39513A94F1A005BD75D /* config.lua */; };
 		DCCF5F1C161746E20067D8C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A10513A94ED5005BD75D /* Icon.png */; };
 		DCCF5F1E161747BD0067D8C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A0F913A94ED5005BD75D /* Default.png */; };
-		DCF95CD213A97EC500AE3B80 /* libcocos2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF95CC913A97EC500AE3B80 /* libcocos2d-mac.a */; };
-		DCF95CD413A97EC500AE3B80 /* libkobold2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF95CCB13A97EC500AE3B80 /* libkobold2d-mac.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		704F6157169B2AB600BD0BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC1A0D813A94EC0005BD75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC1A0E213A94ED5005BD75D;
+			remoteInfo = "uTrucker-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-ios.a"; path = "../../PQKit/build/Release-iphoneos/libb2dJson-ios.a"; sourceTree = "<group>"; };
+		704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libbox2d-ios.a"; sourceTree = "<group>"; };
+		704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-ios.a"; path = "../../PQKit/build/Release-iphoneos/libccbReader-ios.a"; sourceTree = "<group>"; };
+		704F6189169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-extensions-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libcocos2d-extensions-ios.a"; sourceTree = "<group>"; };
+		704F618A169B2BB000BD0BC6 /* libcocos2d-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libcocos2d-ios.a"; sourceTree = "<group>"; };
+		704F618B169B2BB000BD0BC6 /* libcocosdenshion-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocosdenshion-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libcocosdenshion-ios.a"; sourceTree = "<group>"; };
+		704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkobold2d-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libkobold2d-ios.a"; sourceTree = "<group>"; };
+		704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkoboldtouch-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libkoboldtouch-ios.a"; sourceTree = "<group>"; };
+		704F618E169B2BB000BD0BC6 /* libsmc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-ios.a"; path = "../../PQKit/build/Release-iphoneos/libsmc-ios.a"; sourceTree = "<group>"; };
+		704F61A1169B2BBE00BD0BC6 /* libb2dJson-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-mac.a"; path = "../../PQKit/build/Release/libb2dJson-mac.a"; sourceTree = "<group>"; };
+		704F61A2169B2BBE00BD0BC6 /* libbox2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d-mac.a"; path = "../../__KoboldTouch__/build/Release/libbox2d-mac.a"; sourceTree = "<group>"; };
+		704F61A3169B2BBE00BD0BC6 /* libccbReader-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-mac.a"; path = "../../PQKit/build/Release/libccbReader-mac.a"; sourceTree = "<group>"; };
+		704F61A4169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-extensions-mac.a"; path = "../../__KoboldTouch__/build/Release/libcocos2d-extensions-mac.a"; sourceTree = "<group>"; };
+		704F61A5169B2BBE00BD0BC6 /* libcocos2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d-mac.a"; path = "../../__KoboldTouch__/build/Release/libcocos2d-mac.a"; sourceTree = "<group>"; };
+		704F61A6169B2BBE00BD0BC6 /* libcocosdenshion-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocosdenshion-mac.a"; path = "../../__KoboldTouch__/build/Release/libcocosdenshion-mac.a"; sourceTree = "<group>"; };
+		704F61A7169B2BBE00BD0BC6 /* libkobold2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkobold2d-mac.a"; path = "../../__KoboldTouch__/build/Release/libkobold2d-mac.a"; sourceTree = "<group>"; };
+		704F61A8169B2BBE00BD0BC6 /* libkoboldtouch-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkoboldtouch-mac.a"; path = "../../__KoboldTouch__/build/Release/libkoboldtouch-mac.a"; sourceTree = "<group>"; };
+		704F61A9169B2BBE00BD0BC6 /* libsmc-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-mac.a"; path = "../../PQKit/build/Release/libsmc-mac.a"; sourceTree = "<group>"; };
 		70BCD213169ABA20008BE4D9 /* test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		70BCD216169ABA20008BE4D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -183,12 +230,6 @@
 		70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMainSceneViewController.m; sourceTree = "<group>"; };
 		70EE9A401699E639006C5768 /* PQSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSceneSelectViewController.h; sourceTree = "<group>"; };
 		70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQSceneSelectViewController.m; sourceTree = "<group>"; };
-		70EE9A581699E70F006C5768 /* libb2dJson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-ios.a"; path = "../../PQKit/build/Release-iphoneos/libb2dJson-ios.a"; sourceTree = "<group>"; };
-		70EE9A591699E70F006C5768 /* libccbReader-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-ios.a"; path = "../../PQKit/build/Release-iphoneos/libccbReader-ios.a"; sourceTree = "<group>"; };
-		70EE9A5A1699E70F006C5768 /* libsmc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-ios.a"; path = "../../PQKit/build/Release-iphoneos/libsmc-ios.a"; sourceTree = "<group>"; };
-		70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-mac.a"; path = "../../PQKit/build/Release/libb2dJson-mac.a"; sourceTree = "<group>"; };
-		70EE9A5F1699E725006C5768 /* libccbReader-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-mac.a"; path = "../../PQKit/build/Release/libccbReader-mac.a"; sourceTree = "<group>"; };
-		70EE9A601699E725006C5768 /* libsmc-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-mac.a"; path = "../../PQKit/build/Release/libsmc-mac.a"; sourceTree = "<group>"; };
 		70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-hd.plist"; sourceTree = "<group>"; };
 		70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-hd.pvr.ccz"; sourceTree = "<group>"; };
 		70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
@@ -211,17 +252,7 @@
 		DC21B88E1511079900FD4891 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		DC27219E160CADFF00D88944 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DC2721A7160CAFA600D88944 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		DC272475160E48A600D88944 /* libkoboldtouch-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkoboldtouch-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC272478160E48AE00D88944 /* libkoboldtouch-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkoboldtouch-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
-		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocosdenshion-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC65615013A969B600A7AC53 /* libbox2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC65615413A969B600A7AC53 /* libcocos2d-extensions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-extensions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC65615513A969B600A7AC53 /* libcocos2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC65615713A969B600A7AC53 /* libcocosdenshion-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocosdenshion-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC65615813A969B600A7AC53 /* libkobold2d-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkobold2d-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC979E3D13B35F8800656CB9 /* libcocos2d-extensions-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-extensions-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E813B5024400931BF2 /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
@@ -245,8 +276,6 @@
 		DCC1A39213A94F1A005BD75D /* Prefix-iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-iOS.pch"; sourceTree = "<group>"; };
 		DCC1A39313A94F1A005BD75D /* Prefix-Mac.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-Mac.pch"; sourceTree = "<group>"; };
 		DCC1A39513A94F1A005BD75D /* config.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode.applescript; fileEncoding = 4; path = config.lua; sourceTree = "<group>"; };
-		DCF95CC913A97EC500AE3B80 /* libcocos2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF95CCB13A97EC500AE3B80 /* libkobold2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkobold2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-iOS.xcconfig"; sourceTree = "<group>"; };
 		DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-iOS.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,6 +288,15 @@
 				70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */,
 				70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */,
 				70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */,
+				704F61B4169B2BE800BD0BC6 /* libb2dJson-ios.a in Frameworks */,
+				704F61B5169B2BE800BD0BC6 /* libbox2d-ios.a in Frameworks */,
+				704F61B6169B2BE800BD0BC6 /* libccbReader-ios.a in Frameworks */,
+				704F61B7169B2BE800BD0BC6 /* libcocos2d-extensions-ios.a in Frameworks */,
+				704F61B8169B2BE800BD0BC6 /* libcocos2d-ios.a in Frameworks */,
+				704F61B9169B2BE800BD0BC6 /* libcocosdenshion-ios.a in Frameworks */,
+				704F61BA169B2BE800BD0BC6 /* libkobold2d-ios.a in Frameworks */,
+				704F61BB169B2BE800BD0BC6 /* libkoboldtouch-ios.a in Frameworks */,
+				704F61BC169B2BE800BD0BC6 /* libsmc-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +304,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EE9A5B1699E70F006C5768 /* libb2dJson-ios.a in Frameworks */,
-				70EE9A5C1699E70F006C5768 /* libccbReader-ios.a in Frameworks */,
-				70EE9A5D1699E70F006C5768 /* libsmc-ios.a in Frameworks */,
-				DC272476160E48A600D88944 /* libkoboldtouch-ios.a in Frameworks */,
-				DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */,
-				DC65616013A969B600A7AC53 /* libcocos2d-extensions-ios.a in Frameworks */,
-				DC65616113A969B600A7AC53 /* libcocos2d-ios.a in Frameworks */,
-				DC65616313A969B600A7AC53 /* libcocosdenshion-ios.a in Frameworks */,
-				DC65616413A969B600A7AC53 /* libkobold2d-ios.a in Frameworks */,
+				704F618F169B2BB000BD0BC6 /* libb2dJson-ios.a in Frameworks */,
+				704F6190169B2BB000BD0BC6 /* libbox2d-ios.a in Frameworks */,
+				704F6191169B2BB000BD0BC6 /* libccbReader-ios.a in Frameworks */,
+				704F6192169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a in Frameworks */,
+				704F6193169B2BB000BD0BC6 /* libcocos2d-ios.a in Frameworks */,
+				704F6194169B2BB000BD0BC6 /* libcocosdenshion-ios.a in Frameworks */,
+				704F6195169B2BB000BD0BC6 /* libkobold2d-ios.a in Frameworks */,
+				704F6196169B2BB000BD0BC6 /* libkoboldtouch-ios.a in Frameworks */,
+				704F6197169B2BB000BD0BC6 /* libsmc-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,21 +320,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EE9A611699E725006C5768 /* libb2dJson-mac.a in Frameworks */,
-				70EE9A621699E725006C5768 /* libccbReader-mac.a in Frameworks */,
-				70EE9A631699E725006C5768 /* libsmc-mac.a in Frameworks */,
-				DC272479160E48AE00D88944 /* libkoboldtouch-mac.a in Frameworks */,
-				DC979E3E13B35F8800656CB9 /* libcocos2d-extensions-mac.a in Frameworks */,
-				DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */,
-				DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */,
-				DCF95CD213A97EC500AE3B80 /* libcocos2d-mac.a in Frameworks */,
-				DCF95CD413A97EC500AE3B80 /* libkobold2d-mac.a in Frameworks */,
+				704F61AA169B2BBE00BD0BC6 /* libb2dJson-mac.a in Frameworks */,
+				704F61AB169B2BBE00BD0BC6 /* libbox2d-mac.a in Frameworks */,
+				704F61AC169B2BBE00BD0BC6 /* libccbReader-mac.a in Frameworks */,
+				704F61AD169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a in Frameworks */,
+				704F61AE169B2BBE00BD0BC6 /* libcocos2d-mac.a in Frameworks */,
+				704F61AF169B2BBE00BD0BC6 /* libcocosdenshion-mac.a in Frameworks */,
+				704F61B0169B2BBE00BD0BC6 /* libkobold2d-mac.a in Frameworks */,
+				704F61B1169B2BBE00BD0BC6 /* libkoboldtouch-mac.a in Frameworks */,
+				704F61B2169B2BBE00BD0BC6 /* libsmc-mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		704F61B3169B2BC500BD0BC6 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				704F61A1169B2BBE00BD0BC6 /* libb2dJson-mac.a */,
+				704F61A2169B2BBE00BD0BC6 /* libbox2d-mac.a */,
+				704F61A3169B2BBE00BD0BC6 /* libccbReader-mac.a */,
+				704F61A4169B2BBE00BD0BC6 /* libcocos2d-extensions-mac.a */,
+				704F61A5169B2BBE00BD0BC6 /* libcocos2d-mac.a */,
+				704F61A6169B2BBE00BD0BC6 /* libcocosdenshion-mac.a */,
+				704F61A7169B2BBE00BD0BC6 /* libkobold2d-mac.a */,
+				704F61A8169B2BBE00BD0BC6 /* libkoboldtouch-mac.a */,
+				704F61A9169B2BBE00BD0BC6 /* libsmc-mac.a */,
+				704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */,
+				704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */,
+				704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */,
+				704F6189169B2BB000BD0BC6 /* libcocos2d-extensions-ios.a */,
+				704F618A169B2BB000BD0BC6 /* libcocos2d-ios.a */,
+				704F618B169B2BB000BD0BC6 /* libcocosdenshion-ios.a */,
+				704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */,
+				704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */,
+				704F618E169B2BB000BD0BC6 /* libsmc-ios.a */,
+			);
+			name = libs;
+			path = Projectfiles;
+			sourceTree = "<group>";
+		};
 		70BCD21A169ABA20008BE4D9 /* test */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,20 +480,6 @@
 			name = "Scene Model";
 			sourceTree = "<group>";
 		};
-		70EE9A641699E72D006C5768 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				70EE9A5E1699E725006C5768 /* libb2dJson-mac.a */,
-				70EE9A5F1699E725006C5768 /* libccbReader-mac.a */,
-				70EE9A601699E725006C5768 /* libsmc-mac.a */,
-				70EE9A581699E70F006C5768 /* libb2dJson-ios.a */,
-				70EE9A591699E70F006C5768 /* libccbReader-ios.a */,
-				70EE9A5A1699E70F006C5768 /* libsmc-ios.a */,
-			);
-			name = libs;
-			path = Projectfiles;
-			sourceTree = "<group>";
-		};
 		70EE9AB71699FE87006C5768 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,7 +506,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
-				70EE9A641699E72D006C5768 /* libs */,
+				704F61B3169B2BC500BD0BC6 /* libs */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -611,6 +661,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				704F6158169B2AB600BD0BC6 /* PBXTargetDependency */,
 			);
 			name = test;
 			productName = test;
@@ -807,6 +858,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704F614D169B2AB100BD0BC6 /* AppDelegate.m in Sources */,
+				704F614E169B2AB100BD0BC6 /* PQCommonDef.m in Sources */,
+				704F614F169B2AB100BD0BC6 /* PQMainSceneViewController.m in Sources */,
+				704F6150169B2AB100BD0BC6 /* PQSceneSelectViewController.m in Sources */,
+				704F6151169B2AB100BD0BC6 /* PQLevelSelectViewController.m in Sources */,
+				704F6152169B2AB100BD0BC6 /* PQGameSceneViewController.m in Sources */,
+				704F6153169B2AB100BD0BC6 /* PQGameOverViewController.m in Sources */,
+				704F6154169B2AB100BD0BC6 /* PQGameModel.m in Sources */,
+				704F6155169B2AB100BD0BC6 /* PQGameHUDViewController.m in Sources */,
+				704F6156169B2AB100BD0BC6 /* PQGameViewController.m in Sources */,
 				70BCD222169ABA20008BE4D9 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -849,6 +910,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		704F6158169B2AB600BD0BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC1A0E213A94ED5005BD75D /* uTrucker-iOS */;
+			targetProxy = 704F6157169B2AB600BD0BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -879,10 +948,10 @@
 /* Begin XCBuildConfiguration section */
 		70BCD224169ABA20008BE4D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -895,7 +964,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -906,20 +974,26 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "test/test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		70BCD225169ABA20008BE4D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -930,12 +1004,16 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "test/test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
@@ -960,11 +1038,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"$(KKFRAMEWORKS_IOS)",
 					"-ObjC",
 				);
+				TEST_AFTER_BUILD = NO;
 			};
 			name = Debug;
 		};
@@ -972,11 +1056,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"$(KKFRAMEWORKS_IOS)",
 					"-ObjC",
 				);
+				TEST_AFTER_BUILD = NO;
 			};
 			name = Release;
 		};
