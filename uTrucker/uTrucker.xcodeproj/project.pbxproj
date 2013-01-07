@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */; };
+		70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD216169ABA20008BE4D9 /* UIKit.framework */; };
+		70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD218169ABA20008BE4D9 /* Foundation.framework */; };
+		70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */; };
+		70BCD222169ABA20008BE4D9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BCD221169ABA20008BE4D9 /* test.m */; };
 		70EE99D01699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99D11699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99DE1699E5F4006C5768 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
@@ -132,6 +137,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70BCD213169ABA20008BE4D9 /* test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		70BCD216169ABA20008BE4D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		70BCD218169ABA20008BE4D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70BCD21C169ABA20008BE4D9 /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
+		70BCD21E169ABA20008BE4D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70BCD220169ABA20008BE4D9 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		70BCD221169ABA20008BE4D9 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		70BCD223169ABA20008BE4D9 /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
 		70EE99CF1699E5E2006C5768 /* trailer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailer.json; sourceTree = "<group>"; };
 		70EE99D51699E5F4006C5768 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
 		70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSceneBackground.ccbi; sourceTree = "<group>"; };
@@ -234,6 +248,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		70BCD20F169ABA20008BE4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */,
+				70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */,
+				70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC1A0E013A94ED5005BD75D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +293,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70BCD21A169ABA20008BE4D9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				70BCD220169ABA20008BE4D9 /* test.h */,
+				70BCD221169ABA20008BE4D9 /* test.m */,
+				70BCD21B169ABA20008BE4D9 /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		70BCD21B169ABA20008BE4D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70BCD21C169ABA20008BE4D9 /* test-Info.plist */,
+				70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */,
+				70BCD223169ABA20008BE4D9 /* test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		70EE99CE1699E5E2006C5768 /* b2dJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +447,7 @@
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
 				DCFA90ED13B4F6A0009DD35A /* BuildSettings */,
+				70BCD21A169ABA20008BE4D9 /* test */,
 				DCC1A0E613A94ED5005BD75D /* Frameworks */,
 				DCC1A0E413A94ED5005BD75D /* Products */,
 			);
@@ -413,6 +458,7 @@
 			children = (
 				DCC1A0E313A94ED5005BD75D /* uTrucker-iOS.app */,
 				DCC1A25A13A94EE6005BD75D /* uTrucker-Mac.app */,
+				70BCD213169ABA20008BE4D9 /* test.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -420,6 +466,9 @@
 		DCC1A0E613A94ED5005BD75D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */,
+				70BCD216169ABA20008BE4D9 /* UIKit.framework */,
+				70BCD218169ABA20008BE4D9 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -534,6 +583,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		70BCD212169ABA20008BE4D9 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BCD226169ABA20008BE4D9 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				70BCD20E169ABA20008BE4D9 /* Sources */,
+				70BCD20F169ABA20008BE4D9 /* Frameworks */,
+				70BCD210169ABA20008BE4D9 /* Resources */,
+				70BCD211169ABA20008BE4D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 70BCD213169ABA20008BE4D9 /* test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		DCC1A0E213A94ED5005BD75D /* uTrucker-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "uTrucker-iOS" */;
@@ -591,11 +658,20 @@
 			targets = (
 				DCC1A0E213A94ED5005BD75D /* uTrucker-iOS */,
 				DCC1A25913A94EE6005BD75D /* uTrucker-Mac */,
+				70BCD212169ABA20008BE4D9 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		70BCD210169ABA20008BE4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC1A0E113A94ED5005BD75D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -694,7 +770,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70BCD211169ABA20008BE4D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		70BCD20E169ABA20008BE4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BCD222169ABA20008BE4D9 /* test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC1A0DF13A94ED5005BD75D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,6 +834,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BCD21E169ABA20008BE4D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		DCC1A26713A94EE6005BD75D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -753,6 +861,71 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		70BCD224169ABA20008BE4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		70BCD225169ABA20008BE4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -806,6 +979,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		70BCD226169ABA20008BE4D9 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BCD224169ABA20008BE4D9 /* Debug */,
+				70BCD225169ABA20008BE4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "uTrucker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

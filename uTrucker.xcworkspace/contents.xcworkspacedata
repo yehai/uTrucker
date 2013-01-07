@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:uTrucker/uTrucker.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:__KoboldTouch__/KoboldTouch-Libraries.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PQKit/PQKit.xcodeproj">
+   </FileRef>
+</Workspace>
