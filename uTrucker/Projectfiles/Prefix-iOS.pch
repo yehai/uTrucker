@@ -37,7 +37,8 @@
 
 // qiup added at 2012-12-27
 #import "PQCommonDef.h"
-
+// qiup added at 2013-1-8
+#import "TestFlight.h"
 #endif // __OBJC__
 
 

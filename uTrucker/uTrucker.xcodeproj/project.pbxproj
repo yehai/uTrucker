@@ -44,11 +44,26 @@
 		704F61BA169B2BE800BD0BC6 /* libkobold2d-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618C169B2BB000BD0BC6 /* libkobold2d-ios.a */; };
 		704F61BB169B2BE800BD0BC6 /* libkoboldtouch-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618D169B2BB000BD0BC6 /* libkoboldtouch-ios.a */; };
 		704F61BC169B2BE800BD0BC6 /* libsmc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F618E169B2BB000BD0BC6 /* libsmc-ios.a */; };
+		704F61E3169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
+		704F61E4169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
+		704F61E5169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
 		70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */; };
 		70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD216169ABA20008BE4D9 /* UIKit.framework */; };
 		70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD218169ABA20008BE4D9 /* Foundation.framework */; };
 		70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BCD21D169ABA20008BE4D9 /* InfoPlist.strings */; };
 		70BCD222169ABA20008BE4D9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BCD221169ABA20008BE4D9 /* test.m */; };
+		70E63947169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
+		70E63948169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
+		70E63949169B6103004A69F8 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63943169B6103004A69F8 /* GameSprite-ipad.plist */; };
+		70E6394A169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
+		70E6394B169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
+		70E6394C169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */; };
+		70E6394D169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
+		70E6394E169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
+		70E6394F169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */; };
+		70E63950169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
+		70E63951169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
+		70E63952169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */; };
 		70EE99D01699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99D11699E5E2006C5768 /* trailer.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99CF1699E5E2006C5768 /* trailer.json */; };
 		70EE99DE1699E5F4006C5768 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 70EE99D51699E5F4006C5768 /* GameScene.ccbi */; };
@@ -97,34 +112,10 @@
 		70EE9A511699E639006C5768 /* PQMainSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */; };
 		70EE9A521699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
 		70EE9A531699E639006C5768 /* PQSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */; };
-		70EE9AC81699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
-		70EE9AC91699FE87006C5768 /* GameSprite-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */; };
-		70EE9ACA1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */; };
-		70EE9ACB1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */; };
-		70EE9ACC1699FE87006C5768 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */; };
-		70EE9ACD1699FE87006C5768 /* GameSprite-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */; };
-		70EE9ACE1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */; };
-		70EE9ACF1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */; };
-		70EE9AD01699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */; };
-		70EE9AD11699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */; };
-		70EE9AD21699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */; };
-		70EE9AD31699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */; };
 		70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
 		70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABE1699FE87006C5768 /* GameSprite.plist */; };
 		70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
 		70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */; };
-		70EE9AD81699FE87006C5768 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */; };
-		70EE9AD91699FE87006C5768 /* MainSceneImage-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */; };
-		70EE9ADA1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */; };
-		70EE9ADB1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */; };
-		70EE9ADC1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */; };
-		70EE9ADD1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */; };
-		70EE9ADE1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */; };
-		70EE9ADF1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */; };
-		70EE9AE01699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */; };
-		70EE9AE11699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */; };
-		70EE9AE21699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */; };
-		70EE9AE31699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */; };
 		70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
 		70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC61699FE87006C5768 /* MainSceneImage.plist */; };
 		70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */; };
@@ -184,6 +175,8 @@
 		704F61A7169B2BBE00BD0BC6 /* libkobold2d-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkobold2d-mac.a"; path = "../../__KoboldTouch__/build/Release/libkobold2d-mac.a"; sourceTree = "<group>"; };
 		704F61A8169B2BBE00BD0BC6 /* libkoboldtouch-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkoboldtouch-mac.a"; path = "../../__KoboldTouch__/build/Release/libkoboldtouch-mac.a"; sourceTree = "<group>"; };
 		704F61A9169B2BBE00BD0BC6 /* libsmc-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmc-mac.a"; path = "../../PQKit/build/Release/libsmc-mac.a"; sourceTree = "<group>"; };
+		704F61E1169B510700BD0BC6 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		704F61E2169B510700BD0BC6 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		70BCD213169ABA20008BE4D9 /* test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		70BCD216169ABA20008BE4D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -197,6 +190,10 @@
 		70C81505169AEAA900BD83D9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		70C81506169AEAA900BD83D9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70C81507169AEAA900BD83D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70E63943169B6103004A69F8 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
+		70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipad.pvr.ccz"; sourceTree = "<group>"; };
+		70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipad.plist"; sourceTree = "<group>"; };
+		70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipad.pvr.ccz"; sourceTree = "<group>"; };
 		70EE99CF1699E5E2006C5768 /* trailer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailer.json; sourceTree = "<group>"; };
 		70EE99D51699E5F4006C5768 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
 		70EE99D71699E5F4006C5768 /* GameSceneBackground.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSceneBackground.ccbi; sourceTree = "<group>"; };
@@ -230,20 +227,8 @@
 		70EE9A3F1699E639006C5768 /* PQMainSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMainSceneViewController.m; sourceTree = "<group>"; };
 		70EE9A401699E639006C5768 /* PQSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSceneSelectViewController.h; sourceTree = "<group>"; };
 		70EE9A411699E639006C5768 /* PQSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQSceneSelectViewController.m; sourceTree = "<group>"; };
-		70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-hd.plist"; sourceTree = "<group>"; };
-		70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-hd.pvr.ccz"; sourceTree = "<group>"; };
-		70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipad.plist"; sourceTree = "<group>"; };
-		70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipad.pvr.ccz"; sourceTree = "<group>"; };
-		70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GameSprite-ipadhd.plist"; sourceTree = "<group>"; };
-		70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GameSprite-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
 		70EE9ABE1699FE87006C5768 /* GameSprite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameSprite.plist; sourceTree = "<group>"; };
 		70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameSprite.pvr.ccz; sourceTree = "<group>"; };
-		70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-hd.plist"; sourceTree = "<group>"; };
-		70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-hd.pvr.ccz"; sourceTree = "<group>"; };
-		70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipad.plist"; sourceTree = "<group>"; };
-		70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipad.pvr.ccz"; sourceTree = "<group>"; };
-		70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainSceneImage-ipadhd.plist"; sourceTree = "<group>"; };
-		70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MainSceneImage-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
 		70EE9AC61699FE87006C5768 /* MainSceneImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainSceneImage.plist; sourceTree = "<group>"; };
 		70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainSceneImage.pvr.ccz; sourceTree = "<group>"; };
 		DC21B8881511078F00FD4891 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
@@ -297,6 +282,7 @@
 				704F61BA169B2BE800BD0BC6 /* libkobold2d-ios.a in Frameworks */,
 				704F61BB169B2BE800BD0BC6 /* libkoboldtouch-ios.a in Frameworks */,
 				704F61BC169B2BE800BD0BC6 /* libsmc-ios.a in Frameworks */,
+				704F61E5169B510700BD0BC6 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +299,7 @@
 				704F6195169B2BB000BD0BC6 /* libkobold2d-ios.a in Frameworks */,
 				704F6196169B2BB000BD0BC6 /* libkoboldtouch-ios.a in Frameworks */,
 				704F6197169B2BB000BD0BC6 /* libsmc-ios.a in Frameworks */,
+				704F61E3169B510700BD0BC6 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +316,7 @@
 				704F61B0169B2BBE00BD0BC6 /* libkobold2d-mac.a in Frameworks */,
 				704F61B1169B2BBE00BD0BC6 /* libkoboldtouch-mac.a in Frameworks */,
 				704F61B2169B2BBE00BD0BC6 /* libsmc-mac.a in Frameworks */,
+				704F61E4169B510700BD0BC6 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +347,16 @@
 			);
 			name = libs;
 			path = Projectfiles;
+			sourceTree = "<group>";
+		};
+		704F61E0169B50E300BD0BC6 /* testflight */ = {
+			isa = PBXGroup;
+			children = (
+				704F61E1169B510700BD0BC6 /* libTestFlight.a */,
+				704F61E2169B510700BD0BC6 /* TestFlight.h */,
+			);
+			name = testflight;
+			path = test;
 			sourceTree = "<group>";
 		};
 		70BCD21A169ABA20008BE4D9 /* test */ = {
@@ -483,20 +481,12 @@
 		70EE9AB71699FE87006C5768 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				70EE9AB81699FE87006C5768 /* GameSprite-hd.plist */,
-				70EE9AB91699FE87006C5768 /* GameSprite-hd.pvr.ccz */,
-				70EE9ABA1699FE87006C5768 /* GameSprite-ipad.plist */,
-				70EE9ABB1699FE87006C5768 /* GameSprite-ipad.pvr.ccz */,
-				70EE9ABC1699FE87006C5768 /* GameSprite-ipadhd.plist */,
-				70EE9ABD1699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz */,
 				70EE9ABE1699FE87006C5768 /* GameSprite.plist */,
 				70EE9ABF1699FE87006C5768 /* GameSprite.pvr.ccz */,
-				70EE9AC01699FE87006C5768 /* MainSceneImage-hd.plist */,
-				70EE9AC11699FE87006C5768 /* MainSceneImage-hd.pvr.ccz */,
-				70EE9AC21699FE87006C5768 /* MainSceneImage-ipad.plist */,
-				70EE9AC31699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz */,
-				70EE9AC41699FE87006C5768 /* MainSceneImage-ipadhd.plist */,
-				70EE9AC51699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz */,
+				70E63943169B6103004A69F8 /* GameSprite-ipad.plist */,
+				70E63944169B6103004A69F8 /* GameSprite-ipad.pvr.ccz */,
+				70E63945169B6103004A69F8 /* MainSceneImage-ipad.plist */,
+				70E63946169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz */,
 				70EE9AC61699FE87006C5768 /* MainSceneImage.plist */,
 				70EE9AC71699FE87006C5768 /* MainSceneImage.pvr.ccz */,
 			);
@@ -511,6 +501,7 @@
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
 				DCFA90ED13B4F6A0009DD35A /* BuildSettings */,
+				704F61E0169B50E300BD0BC6 /* testflight */,
 				70BCD21A169ABA20008BE4D9 /* test */,
 				DCC1A0E613A94ED5005BD75D /* Frameworks */,
 				DCC1A0E413A94ED5005BD75D /* Products */,
@@ -736,6 +727,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BCD21F169ABA20008BE4D9 /* InfoPlist.strings in Resources */,
+				70E63949169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
+				70E6394C169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70E6394F169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
+				70E63952169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,22 +766,14 @@
 				70EE9A2A1699E61B006C5768 /* particlefx.plist in Resources */,
 				70EE9A2C1699E61B006C5768 /* particlefx.png in Resources */,
 				70EE9A2E1699E61B006C5768 /* particleTexture.png in Resources */,
-				70EE9AC81699FE87006C5768 /* GameSprite-hd.plist in Resources */,
-				70EE9ACA1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */,
-				70EE9ACC1699FE87006C5768 /* GameSprite-ipad.plist in Resources */,
-				70EE9ACE1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */,
-				70EE9AD01699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */,
-				70EE9AD21699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */,
 				70EE9AD41699FE87006C5768 /* GameSprite.plist in Resources */,
 				70EE9AD61699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
-				70EE9AD81699FE87006C5768 /* MainSceneImage-hd.plist in Resources */,
-				70EE9ADA1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */,
-				70EE9ADC1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */,
-				70EE9ADE1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */,
-				70EE9AE01699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */,
-				70EE9AE21699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
 				70EE9AE41699FE87006C5768 /* MainSceneImage.plist in Resources */,
 				70EE9AE61699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
+				70E63947169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
+				70E6394A169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70E6394D169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
+				70E63950169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,22 +803,14 @@
 				70EE9A2B1699E61B006C5768 /* particlefx.plist in Resources */,
 				70EE9A2D1699E61B006C5768 /* particlefx.png in Resources */,
 				70EE9A2F1699E61B006C5768 /* particleTexture.png in Resources */,
-				70EE9AC91699FE87006C5768 /* GameSprite-hd.plist in Resources */,
-				70EE9ACB1699FE87006C5768 /* GameSprite-hd.pvr.ccz in Resources */,
-				70EE9ACD1699FE87006C5768 /* GameSprite-ipad.plist in Resources */,
-				70EE9ACF1699FE87006C5768 /* GameSprite-ipad.pvr.ccz in Resources */,
-				70EE9AD11699FE87006C5768 /* GameSprite-ipadhd.plist in Resources */,
-				70EE9AD31699FE87006C5768 /* GameSprite-ipadhd.pvr.ccz in Resources */,
 				70EE9AD51699FE87006C5768 /* GameSprite.plist in Resources */,
 				70EE9AD71699FE87006C5768 /* GameSprite.pvr.ccz in Resources */,
-				70EE9AD91699FE87006C5768 /* MainSceneImage-hd.plist in Resources */,
-				70EE9ADB1699FE87006C5768 /* MainSceneImage-hd.pvr.ccz in Resources */,
-				70EE9ADD1699FE87006C5768 /* MainSceneImage-ipad.plist in Resources */,
-				70EE9ADF1699FE87006C5768 /* MainSceneImage-ipad.pvr.ccz in Resources */,
-				70EE9AE11699FE87006C5768 /* MainSceneImage-ipadhd.plist in Resources */,
-				70EE9AE31699FE87006C5768 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
 				70EE9AE51699FE87006C5768 /* MainSceneImage.plist in Resources */,
 				70EE9AE71699FE87006C5768 /* MainSceneImage.pvr.ccz in Resources */,
+				70E63948169B6103004A69F8 /* GameSprite-ipad.plist in Resources */,
+				70E6394B169B6103004A69F8 /* GameSprite-ipad.pvr.ccz in Resources */,
+				70E6394E169B6103004A69F8 /* MainSceneImage-ipad.plist in Resources */,
+				70E63951169B6103004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -978,6 +957,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1013,6 +993,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1042,6 +1023,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1060,6 +1042,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/test\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1074,6 +1057,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test\"",
+				);
 			};
 			name = Debug;
 		};
@@ -1081,6 +1068,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test\"",
+				);
 			};
 			name = Release;
 		};

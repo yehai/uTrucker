@@ -28,6 +28,7 @@
 #import "luawax.h"
 // qiup added at 2012-12-27
 #import "PQCommonDef.h"
+#import "TestFlight.h"
 
 #endif // __OBJC__
 
