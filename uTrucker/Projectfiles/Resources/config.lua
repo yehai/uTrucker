@@ -26,7 +26,7 @@ local config =
 		EnableMultiTouch = NO,
 
 		-- Render settings
-		DefaultTexturePixelFormat = TexturePixelFormat.RGBA8888,
+		DefaultTexturePixelFormat = TexturePixelFormat.PVRTC2,
 		GLViewColorFormat = GLViewColorFormat.RGB565,
 		GLViewDepthFormat = GLViewDepthFormat.DepthNone,
 		GLViewMultiSampling = NO,

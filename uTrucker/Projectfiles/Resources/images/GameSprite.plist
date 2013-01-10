@@ -7,11 +7,11 @@
             <key>grassland.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,207},{512,190}}</string>
+                <string>{{2,2},{512,190}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{512,190}}</string>
                 <key>sourceSize</key>
@@ -20,11 +20,11 @@
             <key>sky.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{507,203}}</string>
+                <string>{{516,2},{507,203}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{507,203}}</string>
                 <key>sourceSize</key>
@@ -33,11 +33,11 @@
             <key>trailer_body.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{55,864},{111,53}}</string>
+                <string>{{864,55},{111,53}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{111,53}}</string>
                 <key>sourceSize</key>
@@ -46,11 +46,11 @@
             <key>trailing_container.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,864},{123,51}}</string>
+                <string>{{864,2},{123,51}}</string>
                 <key>offset</key>
                 <string>{2,5}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{11,0},{123,51}}</string>
                 <key>sourceSize</key>
@@ -59,11 +59,11 @@
             <key>trailing_plat.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,721},{141,57}}</string>
+                <string>{{721,2},{141,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,2},{141,57}}</string>
                 <key>sourceSize</key>
@@ -72,11 +72,11 @@
             <key>wheel.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,989},{25,22}}</string>
+                <string>{{989,2},{25,22}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{25,22}}</string>
                 <key>sourceSize</key>
@@ -90,9 +90,9 @@
             <key>realTextureFileName</key>
             <string>GameSprite.pvr.ccz</string>
             <key>size</key>
-            <string>{512,1024}</string>
+            <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:6c69c150faf98ba9c8f77cce223424f7$</string>
+            <string>$TexturePacker:SmartUpdate:b73e1f7af2351752cc13bf3373507a72$</string>
             <key>textureFileName</key>
             <string>GameSprite.pvr.ccz</string>
         </dict>

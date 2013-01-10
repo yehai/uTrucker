@@ -261,6 +261,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = QiupAdHoc.mobileprovision; path = ../QiupAdHoc.mobileprovision; sourceTree = "<group>"; };
 		704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-ios.a"; path = "../../PQKit/build/Release-iphoneos/libb2dJson-ios.a"; sourceTree = "<group>"; };
 		704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libbox2d-ios.a"; sourceTree = "<group>"; };
 		704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-ios.a"; path = "../../PQKit/build/Release-iphoneos/libccbReader-ios.a"; sourceTree = "<group>"; };
@@ -471,6 +472,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003769E169C3A5A00AE2BAA /* provision */ = {
+			isa = PBXGroup;
+			children = (
+				7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */,
+			);
+			name = provision;
+			path = Projectfiles;
+			sourceTree = "<group>";
+		};
+		7003769F169D8A6E00AE2BAA /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				700376A0169DE0CE00AE2BAA /* EntitySystem */,
+			);
+			name = GameEngine;
+			sourceTree = "<group>";
+		};
+		700376A0169DE0CE00AE2BAA /* EntitySystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EntitySystem;
+			sourceTree = "<group>";
+		};
+		700376A2169DE12F00AE2BAA /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		700376A4169DE15A00AE2BAA /* ViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewFactory;
+			sourceTree = "<group>";
+		};
 		704F61B3169B2BC500BD0BC6 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,7 +651,7 @@
 			name = Com;
 			sourceTree = "<group>";
 		};
-		70EE9A551699E652006C5768 /* Scenes Controller */ = {
+		70EE9A551699E652006C5768 /* Scenes&Controller */ = {
 			isa = PBXGroup;
 			children = (
 				70EE9A3E1699E639006C5768 /* PQMainSceneViewController.h */,
@@ -626,32 +665,34 @@
 				70EE9A361699E639006C5768 /* PQGameOverViewController.h */,
 				70EE9A371699E639006C5768 /* PQGameOverViewController.m */,
 			);
-			name = "Scenes Controller";
+			name = "Scenes&Controller";
 			sourceTree = "<group>";
 		};
-		70EE9A561699E696006C5768 /* Views Controller */ = {
+		70EE9A561699E696006C5768 /* Views&Controller */ = {
 			isa = PBXGroup;
 			children = (
+				700376A4169DE15A00AE2BAA /* ViewFactory */,
 				70EE9A321699E639006C5768 /* PQGameHUDViewController.h */,
 				70EE9A331699E639006C5768 /* PQGameHUDViewController.m */,
 				70EE9A3A1699E639006C5768 /* PQGameViewController.h */,
 				70EE9A3B1699E639006C5768 /* PQGameViewController.m */,
 			);
-			name = "Views Controller";
+			name = "Views&Controller";
 			sourceTree = "<group>";
 		};
-		70EE9A571699E6CD006C5768 /* Scene Model */ = {
+		70EE9A571699E6CD006C5768 /* GameModel */ = {
 			isa = PBXGroup;
 			children = (
 				70EE9A341699E639006C5768 /* PQGameModel.h */,
 				70EE9A351699E639006C5768 /* PQGameModel.m */,
 			);
-			name = "Scene Model";
+			name = GameModel;
 			sourceTree = "<group>";
 		};
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				7003769E169C3A5A00AE2BAA /* provision */,
 				704F61B3169B2BC500BD0BC6 /* libs */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
@@ -750,9 +791,11 @@
 				DCC1A38D13A94F1A005BD75D /* AppDelegate.h */,
 				DCC1A38E13A94F1A005BD75D /* AppDelegate.m */,
 				70EE9A541699E645006C5768 /* Com */,
-				70EE9A551699E652006C5768 /* Scenes Controller */,
-				70EE9A571699E6CD006C5768 /* Scene Model */,
-				70EE9A561699E696006C5768 /* Views Controller */,
+				70EE9A571699E6CD006C5768 /* GameModel */,
+				70EE9A551699E652006C5768 /* Scenes&Controller */,
+				70EE9A561699E696006C5768 /* Views&Controller */,
+				7003769F169D8A6E00AE2BAA /* GameEngine */,
+				700376A2169DE12F00AE2BAA /* Notification */,
 				DCC1A39413A94F1A005BD75D /* Resources */,
 				DCC1A3CF13A94F2C005BD75D /* Supporting Files */,
 			);

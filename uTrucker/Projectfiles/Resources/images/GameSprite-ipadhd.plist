@@ -7,7 +7,7 @@
             <key>grassland.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2032,2},{2048,758}}</string>
+                <string>{{2,2},{2048,758}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +20,7 @@
             <key>sky.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{2028,812}}</string>
+                <string>{{2052,2},{2028,812}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +33,7 @@
             <key>trailer_body.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2598,762},{445,211}}</string>
+                <string>{{1056,762},{445,211}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>trailing_container.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,816},{486,198}}</string>
+                <string>{{568,762},{486,198}}</string>
                 <key>offset</key>
                 <string>{9,17}</string>
                 <key>rotated</key>
@@ -59,7 +59,7 @@
             <key>trailing_plat.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2032,762},{564,222}}</string>
+                <string>{{2,762},{564,222}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
@@ -72,11 +72,11 @@
             <key>wheel.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{490,816},{101,89}}</string>
+                <string>{{568,962},{101,89}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{101,89}}</string>
                 <key>sourceSize</key>
@@ -90,9 +90,9 @@
             <key>realTextureFileName</key>
             <string>GameSprite-ipadhd.pvr.ccz</string>
             <key>size</key>
-            <string>{4096,1024}</string>
+            <string>{4096,4096}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:d07d65ca53f617affb977aa78a961ae9$</string>
+            <string>$TexturePacker:SmartUpdate:5bdda968ecf6c4bb7426b4a3a0e9b1fd$</string>
             <key>textureFileName</key>
             <string>GameSprite-ipadhd.pvr.ccz</string>
         </dict>
