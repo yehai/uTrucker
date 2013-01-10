@@ -1363,11 +1363,6 @@
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/test\"",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(KKFRAMEWORKS_IOS)",
-					"-ObjC",
-				);
 				PRODUCT_NAME = "uTrucker-iOS-HD";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_AFTER_BUILD = NO;
@@ -1384,11 +1379,6 @@
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/test\"",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(KKFRAMEWORKS_IOS)",
-					"-ObjC",
 				);
 				PRODUCT_NAME = "uTrucker-iOS-HD";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1444,11 +1434,6 @@
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/test\"",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(KKFRAMEWORKS_IOS)",
-					"-ObjC",
-				);
 				TEST_AFTER_BUILD = NO;
 			};
 			name = Debug;
@@ -1462,11 +1447,6 @@
 					"\"$(SRCROOT)/../PQKit/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/../__KoboldTouch__/build/Release-iphoneos\"",
 					"\"$(SRCROOT)/test\"",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(KKFRAMEWORKS_IOS)",
-					"-ObjC",
 				);
 				TEST_AFTER_BUILD = NO;
 			};

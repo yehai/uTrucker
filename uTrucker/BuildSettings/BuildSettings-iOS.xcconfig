@@ -5,10 +5,13 @@
 // Released under MIT License in Germany (LICENSE-Kobold2D.txt).
 //
 
-#include "../__KoboldTouch__/buildsettings/FrameworksAndLibraries.xcconfig"
+//#include "../__KoboldTouch__/buildsettings/FrameworksAndLibraries.xcconfig"
 
 // qiup added at 2013-1-7
 #include "../PQKit/buildsettings/HeaderSearchPaths.xcconfig"
+// qiup added at 2013-1-10
+#include "../PQKit/buildsettings/FrameworksAndLibraries.xcconfig"
+
 // ***************************************
 // Actual compiler settings filled in here
 // ***************************************
