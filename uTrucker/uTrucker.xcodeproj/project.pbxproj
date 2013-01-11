@@ -47,6 +47,10 @@
 		704F61E3169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
 		704F61E4169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
 		704F61E5169B510700BD0BC6 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704F61E1169B510700BD0BC6 /* libTestFlight.a */; };
+		706C735616A01FA000694C98 /* QiupAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */; };
+		706C735716A01FA000694C98 /* QiupAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */; };
+		706C735816A01FA200694C98 /* QiupAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */; };
+		706C735916A01FA200694C98 /* QiupAdHoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */; };
 		70BCD215169ABA20008BE4D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD214169ABA20008BE4D9 /* SenTestingKit.framework */; };
 		70BCD217169ABA20008BE4D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD216169ABA20008BE4D9 /* UIKit.framework */; };
 		70BCD219169ABA20008BE4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BCD218169ABA20008BE4D9 /* Foundation.framework */; };
@@ -261,7 +265,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = QiupAdHoc.mobileprovision; path = ../QiupAdHoc.mobileprovision; sourceTree = "<group>"; };
+		7003769C169C3A5100AE2BAA /* QiupAdHoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = QiupAdHoc.mobileprovision; path = ../../QiupAdHoc.mobileprovision; sourceTree = "<group>"; };
 		704F6186169B2BB000BD0BC6 /* libb2dJson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libb2dJson-ios.a"; path = "../../PQKit/build/Release-iphoneos/libb2dJson-ios.a"; sourceTree = "<group>"; };
 		704F6187169B2BB000BD0BC6 /* libbox2d-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d-ios.a"; path = "../../__KoboldTouch__/build/Release-iphoneos/libbox2d-ios.a"; sourceTree = "<group>"; };
 		704F6188169B2BB000BD0BC6 /* libccbReader-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libccbReader-ios.a"; path = "../../PQKit/build/Release-iphoneos/libccbReader-ios.a"; sourceTree = "<group>"; };
@@ -1007,6 +1011,7 @@
 				70E639C2169B7031004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */,
 				70E639C5169B7031004A69F8 /* MainSceneImage-ipadhd.plist in Resources */,
 				70E639C6169B7031004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
+				706C735616A01FA000694C98 /* QiupAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1044,6 +1049,7 @@
 				70E63A11169B70AC004A69F8 /* MainSceneImage-hd.pvr.ccz in Resources */,
 				70E63A12169B70AC004A69F8 /* MainSceneImage-ipadhd.plist in Resources */,
 				70E63A13169B70AC004A69F8 /* MainSceneImage-ipadhd.pvr.ccz in Resources */,
+				706C735816A01FA200694C98 /* QiupAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,6 +1093,7 @@
 				70E6397A169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
 				70E63980169B7013004A69F8 /* MainSceneImage.plist in Resources */,
 				70E63982169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */,
+				706C735716A01FA000694C98 /* QiupAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1124,6 +1131,7 @@
 				70E6397B169B7013004A69F8 /* MainSceneImage-ipad.pvr.ccz in Resources */,
 				70E63981169B7013004A69F8 /* MainSceneImage.plist in Resources */,
 				70E63983169B7013004A69F8 /* MainSceneImage.pvr.ccz in Resources */,
+				706C735916A01FA200694C98 /* QiupAdHoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

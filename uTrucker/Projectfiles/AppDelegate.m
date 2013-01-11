@@ -25,12 +25,7 @@
 #ifdef KK_PLATFORM_IOS
 -(BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-    BOOL bResult = [super application:application didFinishLaunchingWithOptions:launchOptions];
-    
-    // qiup added at 2012-12-30
-    [[CCFileUtils sharedFileUtils] setEnableFallbackSuffixes:YES];
-    [CCTexture2D PVRImagesHavePremultipliedAlpha:NO];
-    return bResult;
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 #endif
 -(id) alternateView
